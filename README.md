@@ -27,7 +27,7 @@ v. Evals
 |14| [Dall E Mini](https://github.com/borisdayma/dalle-mini)	| 14.4k	| Python	| | 
 |15| [Theano](https://github.com/Theano/Theano)	| 9.8k	| Python	| | 
 |16| [Tflearn](https://github.com/tflearn/tflearn)	| 9.6k	| Python	| | 
-|17| [Yolo7](https://github.com/WongKinYiu/yolov7)	| 11.5k	| Python	| | 
+|17| [Yolo7](https://github.com/WongKinYiu/yolov7)	| 11.5k	| Python(Jupyter Notebook)	| | 
 |18| [Fauxpilot](https://github.com/fauxpilot/fauxpilot)	| 13.3k	| Python	| | 
 |19| [Paddlenlp](https://github.com/PaddlePaddle/PaddleNLP)	| 10.4k	| Python	| | 
 |20| [Deeppavlov](https://github.com/deeppavlov/DeepPavlov)	| 6.4k	| Python	| | 
