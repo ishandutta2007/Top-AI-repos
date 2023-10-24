@@ -16,20 +16,20 @@ v. Evals
 |3|[Local AI](https://github.com/go-skynet/local-ai)|75.5K|   Python |  LocalAI is a drop-in replacement REST API compatible with OpenAI API specifications for local inferencing. It allows to run models locally or on-prem with consumer-grade hardware, supporting multiple models families compatible |   |
 |4|	[spaCy](https://github.com/explosion/spaCy)	| 39k		| Python		| An open-source library for natural language processing (NLP) in Python.	|
 |5| [Hugging Face Transformers](https://github.com/huggingface/transformers)	| 45k	| Python	| A library of state-of-the-art pre-trained models for natural language processing (NLP).| 
-|6| [PyTorch Lightning](https://github.com/Lightning-AI/lightning)	| 18k	| Python	| A lightweight PyTorch wrapper for high-performance AI research and production.| 
-|7| [Detectron2](https://github.com/facebookresearch/detectron2)	| 17k	| Python	| A modular, scalable, and extensible object detection and segmentation framework.| 
-|8| [Stable Diffusion](https://github.com/CompVis/stable-diffusion)	| 16k	| Python	| A Python library for diffusion modeling, a type of generative model that can be used to create images, text, and other types of data.| 
-|9| [Apache Mxnet](https://github.com/apache/mxnet)	| 16k	| Python	| | 
-|10| [Deepfacelab](https://github.com/iperov/DeepFaceLab)	| 16k	| Python	| | 
-|11| [Fastai](https://github.com/fastai)	| 16k	| Python	| | 
-|12| [Open Assistant](https://github.com/LAION-AI/Open-Assistant)	| 16k	| Python	| | 
-|13| [Mindsdb](https://github.com/mindsdb/mindsdb)	| 16k	| Python	| | 
-|14| [Dall E Mini](https://github.com/borisdayma/dalle-mini)	| 16k	| Python	| | 
-|15| [Theano](https://github.com/Theano/Theano)	| 16k	| Python	| | 
-|16| [Tflearn](https://github.com/tflearn/tflearn)	| 16k	| Python	| | 
-|17| [Yolo7](https://github.com/WongKinYiu/yolov7)	| 16k	| Python	| | 
-|18| [Fauxpilot](https://github.com/fauxpilot/fauxpilot)	| 16k	| Python	| | 
-|19| [Paddlenlp](https://github.com/PaddlePaddle/PaddleNLP)	| 16k	| Python	| | 
+|6| [PyTorch Lightning](https://github.com/Lightning-AI/lightning)	| 24.9k	| Python	| A lightweight PyTorch wrapper for high-performance AI research and production.| 
+|7| [Detectron2](https://github.com/facebookresearch/detectron2)	| 26.9k	| Python	| A modular, scalable, and extensible object detection and segmentation framework.| 
+|8| [Stable Diffusion](https://github.com/CompVis/stable-diffusion)	| 60.8k	| Python	| A Python library for diffusion modeling, a type of generative model that can be used to create images, text, and other types of data.| 
+|9| [Apache Mxnet](https://github.com/apache/mxnet)	| 20.6k	| Python	| | 
+|10| [Deepfacelab](https://github.com/iperov/DeepFaceLab)	| 43k	| Python	| | 
+|11| [Fastai](https://github.com/fastai/fastai)	| 24.7k	| Python	| | 
+|12| [Open Assistant](https://github.com/LAION-AI/Open-Assistant)	| 35.5k	| Python	| | 
+|13| [Mindsdb](https://github.com/mindsdb/mindsdb)	| 18.5k	| Python	| | 
+|14| [Dall E Mini](https://github.com/borisdayma/dalle-mini)	| 14.4k	| Python	| | 
+|15| [Theano](https://github.com/Theano/Theano)	| 9.8k	| Python	| | 
+|16| [Tflearn](https://github.com/tflearn/tflearn)	| 9.6k	| Python	| | 
+|17| [Yolo7](https://github.com/WongKinYiu/yolov7)	| 11.5k	| Python	| | 
+|18| [Fauxpilot](https://github.com/fauxpilot/fauxpilot)	| 13.3k	| Python	| | 
+|19| [Paddlenlp](https://github.com/PaddlePaddle/PaddleNLP)	| 10.4k	| Python	| | 
 |20| [Deeppavlov](https://github.com/deeppavlov/DeepPavlov)	| 16k	| Python	| | 
 |21| [MXNet](https://github.com/apache/mxnet)	| 16k	| Python	| | 
 |22| [CatBoost](https://github.com/catboost/catboost)	| 16k	| Python	| | 
