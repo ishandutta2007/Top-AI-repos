@@ -19,8 +19,8 @@ v. Evals
 |6| [PyTorch Lightning](https://github.com/Lightning-AI/lightning)	| 24.9k	| Python	| A lightweight PyTorch wrapper for high-performance AI research and production.| 
 |7| [Detectron2](https://github.com/facebookresearch/detectron2)	| 26.9k	| Python	| A modular, scalable, and extensible object detection and segmentation framework.| 
 |8| [Stable Diffusion](https://github.com/CompVis/stable-diffusion)	| 60.8k	| Python(Jupyter Notebook)	| A Python library for diffusion modeling, a type of generative model that can be used to create images, text, and other types of data.| 
-|9| [Apache Mxnet](https://github.com/apache/mxnet)	| 20.6k	| Python	| | 
-|10| [Deepfacelab](https://github.com/iperov/DeepFaceLab)	| 43k	| Python	| | 
+|9| [Apache Mxnet](https://github.com/apache/mxnet)	| 20.6k	| C++/Python	| | 
+|10| [Deepfacelab](https://github.com/iperov/DeepFaceLab)	| 43k	| Python(Jupyter Notebook)	| | 
 |11| [Fastai](https://github.com/fastai/fastai)	| 24.7k	| Python	| | 
 |12| [Open Assistant](https://github.com/LAION-AI/Open-Assistant)	| 35.5k	| Python	| | 
 |13| [Mindsdb](https://github.com/mindsdb/mindsdb)	| 18.5k	| Python	| | 
