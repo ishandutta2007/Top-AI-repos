@@ -20,8 +20,8 @@ v. Evals
 |7| [Detectron2](https://github.com/facebookresearch/detectron2)	| 26.9k	| Python	| A modular, scalable, and extensible object detection and segmentation framework.| 
 |8| [Stable Diffusion](https://github.com/CompVis/stable-diffusion)	| 60.8k	| Python(Jupyter Notebook)	| A Python library for diffusion modeling, a type of generative model that can be used to create images, text, and other types of data.| 
 |9| [Apache Mxnet](https://github.com/apache/mxnet)	| 20.6k	| C++/Python	| | 
-|10| [Deepfacelab](https://github.com/iperov/DeepFaceLab)	| 43k	| Python(Jupyter Notebook)	| | 
-|11| [Fastai](https://github.com/fastai/fastai)	| 24.7k	| Python	| | 
+|10| [Deepfacelab](https://github.com/iperov/DeepFaceLab)	| 43k	| Python	| | 
+|11| [Fastai](https://github.com/fastai/fastai)	| 24.7k	| Python(Jupyter Notebook)	| | 
 |12| [Open Assistant](https://github.com/LAION-AI/Open-Assistant)	| 35.5k	| Python	| | 
 |13| [Mindsdb](https://github.com/mindsdb/mindsdb)	| 18.5k	| Python	| | 
 |14| [Dall E Mini](https://github.com/borisdayma/dalle-mini)	| 14.4k	| Python	| | 
