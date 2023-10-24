@@ -20,14 +20,15 @@ v. Evals
 |7| Detectron2	| 17k	| Python	| A modular, scalable, and extensible object detection and segmentation framework.| 
 |8| Stable Diffusion	| 16k	| Python	| A Python library for diffusion modeling, a type of generative model that can be used to create images, text, and other types of data.| 
 |9| Apache Mxnet	| 16k	| Python	| | 
-|9| Deepfacelab	| 16k	| Python	| | 
-|9| Fastai	| 16k	| Python	| | 
-|9| Open Assistant	| 16k	| Python	| | 
-|10| Mindsdb	| 16k	| Python	| | 
-|11| Dall E Mini	| 16k	| Python	| | 
-|11| Theano	| 16k	| Python	| | 
-|11| Tflearn	| 16k	| Python	| | 
-|11| Yolo7	| 16k	| Python	| | 
-|11| Fauxpilot	| 16k	| Python	| | 
-|11| Paddlenlp	| 16k	| Python	| | 
-|11| Deeppavlov	| 16k	| Python	| | 
+|10| Deepfacelab	| 16k	| Python	| | 
+|11| Fastai	| 16k	| Python	| | 
+|12| Open Assistant	| 16k	| Python	| | 
+|13| Mindsdb	| 16k	| Python	| | 
+|14| Dall E Mini	| 16k	| Python	| | 
+|15| Theano	| 16k	| Python	| | 
+|16| Tflearn	| 16k	| Python	| | 
+|17| Yolo7	| 16k	| Python	| | 
+|18| Fauxpilot	| 16k	| Python	| | 
+|19| Paddlenlp	| 16k	| Python	| | 
+|20| Deeppavlov	| 16k	| Python	| | 
+
