@@ -32,3 +32,14 @@ v. Evals
 |19| Paddlenlp	| 16k	| Python	| | 
 |20| Deeppavlov	| 16k	| Python	| | 
 |21| MXNet	| 16k	| Python	| | 
+|22| CatBoost	| 16k	| Python	| | 
+|22| Scikit-learn	| 16k	| Python	| | 
+|23| Keras	| 16k	| Python	| | 
+|24| PyTorch	| 16k	| Python	| | 
+|25| SciPy	| 16k	| Python	| | 
+|26| Theano	| 16k	| Python	| | 
+|27| Caffe	| 16k	| Python	| | 
+|28| Exciting Deep Learning Project Ideas	| 16k	| Python	| | 
+|29| R-TensorFlow	| 16k	| Python	| | 
+
+
