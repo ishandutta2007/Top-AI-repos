@@ -5,8 +5,8 @@ Before we get on with our list, let's get a few usual suspects out of the way
 
 
     
-|#|  Repo  | Repo Stars  | User Stars  Language |  Desc |   |
-|---|---|---|---|---|---|
+|#|  Repo  | Repo Stars  | User Stars |  Language |  Desc |   |
+|---|---|---|---|---|---|---|
 |1|[privateGPT](https://github.com/imartinez/privateGPT)|91.7K| <a href="https://github.com/imartinez?tab=repositories&sort=stargazers"> <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&color=55960c&labelColor=488207&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/imartinez"/></a>|   Python |  Ask questions about your documents without an internet connection using the power of LLMs. 100% private; no data leaves your execution environment at any point. You can ingest documents and ask questions without an internet connection |  |
 |2|[Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui#stable-diffusion-web-ui)|107K| <a href="https://github.com/AUTOMATIC1111?tab=repositories&sort=stargazers"> <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&color=55960c&labelColor=488207&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/AUTOMATIC1111"/></a>| Python   |  A browser interface based on the Gradio library for Stable Diffusion. |   |
 |3|[Local AI](https://github.com/go-skynet/LocalAI)|75.5K| <a href="https://github.com/go-skynet?tab=repositories&sort=stargazers"> <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&color=55960c&labelColor=488207&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/go-skynet"/></a>|   Go/Python |  LocalAI is a drop-in replacement REST API compatible with OpenAI API specifications for local inferencing. It allows to run models locally or on-prem with consumer-grade hardware, supporting multiple models families compatible |   |
