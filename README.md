@@ -30,12 +30,12 @@ v. Evals
 |17| [Yolo7](https://github.com/WongKinYiu/yolov7)	| 11.5k	| Python	| | 
 |18| [Fauxpilot](https://github.com/fauxpilot/fauxpilot)	| 13.3k	| Python	| | 
 |19| [Paddlenlp](https://github.com/PaddlePaddle/PaddleNLP)	| 10.4k	| Python	| | 
-|20| [Deeppavlov](https://github.com/deeppavlov/DeepPavlov)	| 16k	| Python	| | 
-|21| [MXNet](https://github.com/apache/mxnet)	| 16k	| Python	| | 
+|20| [Deeppavlov](https://github.com/deeppavlov/DeepPavlov)	| 6.4k	| Python	| | 
+|21| [MXNet](https://github.com/apache/mxnet)	| 20.6k	| Python	| | 
 |22| [CatBoost](https://github.com/catboost/catboost)	| 16k	| Python	| | 
-|22| [Scikit-learn](https://github.com/scikit-learn/scikit-learn)	| 16k	| Python	| | 
-|23| [Keras](https://github.com/keras-team/keras)	| 16k	| Python	| | 
-|24| [PyTorch](https://github.com/pytorch/pytorch)	| 16k	| Python	| | 
+|22| [Scikit-learn](https://github.com/scikit-learn/scikit-learn)	| 56.2k	| Python	| | 
+|23| [Keras](https://github.com/keras-team/keras)	| 59.6k	| Python	| | 
+|24| [PyTorch](https://github.com/pytorch/pytorch)	| 71.9k	| Python	| | 
 |25| [SciPy](https://github.com/scipy/scipy)	| 16k	| Python	| | 
 |26| [Theano](https://github.com/Theano/)	| 16k	| Python	| | 
 |27| [Caffe](https://github.com/BVLC/caffe)	| 16k	| Python	| |
