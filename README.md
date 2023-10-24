@@ -1,7 +1,5 @@
 # Top-AI-repos
 
-
-https://github.com/orgs/huggingface/repositories?q=&type=all&language=&sort=stargazers
     
 |<ins>#</ins>|  <ins>Repo</ins>  | <ins>Repo_Stars_______<ins> | <ins>User_Stars________<ins> |  <ins>Language______</ins> |  <ins>Description__________________________________________</ins> |
 |---|---|---|---|---|---|
