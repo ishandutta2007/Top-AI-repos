@@ -32,7 +32,7 @@ v. Evals
 |19| [Paddlenlp](https://github.com/PaddlePaddle/PaddleNLP)	| 10.4k	| Python	| | 
 |20| [Deeppavlov](https://github.com/deeppavlov/DeepPavlov)	| 6.4k	| Python	| | 
 |21| [MXNet](https://github.com/apache/mxnet)	| 20.6k	| C++/Python	| | 
-|22| [CatBoost](https://github.com/catboost/catboost)	| 16k	| Python	| | 
+|22| [CatBoost](https://github.com/catboost/catboost)	| 16k	| Python/C	| | 
 |22| [Scikit-learn](https://github.com/scikit-learn/scikit-learn)	| 56.2k	| Python	| | 
 |23| [Keras](https://github.com/keras-team/keras)	| 59.6k	| Python	| | 
 |24| [PyTorch](https://github.com/pytorch/pytorch)	| 71.9k	| Python	| | 
