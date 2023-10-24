@@ -18,28 +18,28 @@ v. Evals
 |5| Hugging Face Transformers	| 45k	| Python	| A library of state-of-the-art pre-trained models for natural language processing (NLP).| 
 |6| PyTorch Lightning	| 18k	| Python	| A lightweight PyTorch wrapper for high-performance AI research and production.| 
 |7| Detectron2	| 17k	| Python	| A modular, scalable, and extensible object detection and segmentation framework.| 
-|8| Stable Diffusion	| 16k	| Python	| A Python library for diffusion modeling, a type of generative model that can be used to create images, text, and other types of data.| 
-|9| Apache Mxnet	| 16k	| Python	| | 
-|10| Deepfacelab	| 16k	| Python	| | 
-|11| Fastai	| 16k	| Python	| | 
-|12| Open Assistant	| 16k	| Python	| | 
-|13| Mindsdb	| 16k	| Python	| | 
-|14| Dall E Mini	| 16k	| Python	| | 
-|15| Theano	| 16k	| Python	| | 
-|16| Tflearn	| 16k	| Python	| | 
-|17| Yolo7	| 16k	| Python	| | 
-|18| Fauxpilot	| 16k	| Python	| | 
-|19| Paddlenlp	| 16k	| Python	| | 
-|20| Deeppavlov	| 16k	| Python	| | 
-|21| MXNet	| 16k	| Python	| | 
-|22| CatBoost	| 16k	| Python	| | 
-|22| Scikit-learn	| 16k	| Python	| | 
-|23| Keras	| 16k	| Python	| | 
-|24| PyTorch	| 16k	| Python	| | 
-|25| SciPy	| 16k	| Python	| | 
-|26| Theano	| 16k	| Python	| | 
-|27| Caffe	| 16k	| Python	| | 
+|8| [Stable Diffusion](https://github.com/CompVis/stable-diffusion)	| 16k	| Python	| A Python library for diffusion modeling, a type of generative model that can be used to create images, text, and other types of data.| 
+|9| [Apache Mxnet](https://github.com/apache/mxnet)	| 16k	| Python	| | 
+|10| [Deepfacelab](https://github.com/iperov/DeepFaceLab)	| 16k	| Python	| | 
+|11| [Fastai](https://github.com/fastai)	| 16k	| Python	| | 
+|12| [Open Assistant](https://github.com/LAION-AI/Open-Assistant)	| 16k	| Python	| | 
+|13| [Mindsdb](https://github.com/mindsdb/mindsdb)	| 16k	| Python	| | 
+|14| [Dall E Mini](https://github.com/borisdayma/dalle-mini)	| 16k	| Python	| | 
+|15| [Theano](https://github.com/Theano/Theano)	| 16k	| Python	| | 
+|16| [Tflearn](https://github.com/tflearn/tflearn)	| 16k	| Python	| | 
+|17| [Yolo7](https://github.com/WongKinYiu/yolov7)	| 16k	| Python	| | 
+|18| [Fauxpilot](https://github.com/fauxpilot/fauxpilot)	| 16k	| Python	| | 
+|19| [Paddlenlp](https://github.com/PaddlePaddle/PaddleNLP)	| 16k	| Python	| | 
+|20| [Deeppavlov](https://github.com/deeppavlov/DeepPavlov)	| 16k	| Python	| | 
+|21| [MXNet](https://github.com/apache/mxnet)	| 16k	| Python	| | 
+|22| [CatBoost](https://github.com/catboost/catboost)	| 16k	| Python	| | 
+|22| [Scikit-learn](https://github.com/scikit-learn/scikit-learn)	| 16k	| Python	| | 
+|23| [Keras](https://github.com/keras-team/keras)	| 16k	| Python	| | 
+|24| [PyTorch](https://github.com/pytorch/pytorch)	| 16k	| Python	| | 
+|25| [SciPy](https://github.com/scipy/scipy))	| 16k	| Python	| | 
+|26| [Theano](https://github.com/Theano/)	| 16k	| Python	| | 
+|27| [Caffe](https://github.com/BVLC/caffe)	| 16k	| Python	| | 
 |28| Exciting Deep Learning Project Ideas	| 16k	| Python	| | 
-|29| R-TensorFlow	| 16k	| Python	| | 
+|29| [R-TensorFlow](https://github.com/rstudio/tensorflow)	| 16k	| Python	| | 
 
 
