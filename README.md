@@ -38,7 +38,7 @@ v. Evals
 |24| [PyTorch](https://github.com/pytorch/pytorch)	| 71.9k	| Python	| | 
 |25| [SciPy](https://github.com/scipy/scipy)	| 11.8k	| Python	| | 
 |26| [Theano](https://github.com/Theano/Theano)	| 9.8k	| Python	| | 
-|27| [Caffe](https://github.com/BVLC/caffe)	| 33.6k	| Python	| |
-|29| [R-TensorFlow](https://github.com/rstudio/tensorflow)	| 1.3k	| Python	| | 
+|27| [Caffe](https://github.com/BVLC/caffe)	| 33.6k	| C++	| |
+|29| [R-TensorFlow](https://github.com/rstudio/tensorflow)	| 1.3k	| R	| | 
 
 
