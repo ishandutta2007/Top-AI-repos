@@ -31,7 +31,7 @@ v. Evals
 |18| [Fauxpilot](https://github.com/fauxpilot/fauxpilot)	| 13.3k	| Python	| | 
 |19| [Paddlenlp](https://github.com/PaddlePaddle/PaddleNLP)	| 10.4k	| Python	| | 
 |20| [Deeppavlov](https://github.com/deeppavlov/DeepPavlov)	| 6.4k	| Python	| | 
-|21| [MXNet](https://github.com/apache/mxnet)	| 20.6k	| Python	| | 
+|21| [MXNet](https://github.com/apache/mxnet)	| 20.6k	| C++/Python	| | 
 |22| [CatBoost](https://github.com/catboost/catboost)	| 16k	| Python	| | 
 |22| [Scikit-learn](https://github.com/scikit-learn/scikit-learn)	| 56.2k	| Python	| | 
 |23| [Keras](https://github.com/keras-team/keras)	| 59.6k	| Python	| | 
