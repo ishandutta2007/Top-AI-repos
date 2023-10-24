@@ -1,15 +1,5 @@
 # Top-AI-repos
 
-Photo by Roman Synkevych on Unsplash
-Before we get on with our list, let's get a few usual suspects out of the way
-
-
-<a href="https://github.com/imartinez/privateGPT">
-<img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.herokuapp.com/github/stars/imartinez/privateGPT?logo=star&color=55960c&labelColor=488207&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github.com/repos/imartinez/privateGPT"/>
-</a>
-
-<a href="https://github.com/imartinez?tab=repositories&sort=stargazers"> <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&color=55960c&labelColor=488207&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/imartinez"/></a>
-
     
 |#|  Repo  | Repo_______Stars  | User_______Stars |  Language |  Desc |   |
 |---|---|---|---|---|---|---|
