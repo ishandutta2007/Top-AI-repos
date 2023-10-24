@@ -36,11 +36,8 @@ Before we get on with our list, let's get a few usual suspects out of the way
 |27| [Caffe](https://github.com/BVLC/caffe)	| 33.6k	| C++	| |
 |29| [R-TensorFlow](https://github.com/rstudio/tensorflow)	| 1.3k	| R	| | 
 |30| [ChatGPT-Retrieval](https://github.com/openai/chatgpt-retrieval-plugin)	| 19.8k	| Python	| |
-|30| [Triton]([https://github.com/openai/chatgpt-retrieval-plugin](https://github.com/openai/triton)	| 8.5k	| Python	| |
-|30| [C](https://github.com/openai/chatgpt-retrieval-plugin)	| 19.8k	| Python	| |
-|30| [C](https://github.com/openai/chatgpt-retrieval-plugin)	| 19.8k	| Python	| |
-|30| [C](https://github.com/openai/chatgpt-retrieval-plugin)	| 19.8k	| Python	| | 
-|30| [BabyAGI](https://github.com/yoheinakajima/babyagi)|17.5K| Python | |
-|31| [Auto-GPT]([https://github.com/yoheinakajima/Auto-GPT](https://github.com/Significant-Gravitas/AutoGPT)https://github.com/Significant-Gravitas/AutoGPT)|151K| Python | |
-|32| [Evals](https://github.com/openai/evals)|12.2K| Python | |
+|31| [Triton]([https://github.com/openai/chatgpt-retrieval-plugin](https://github.com/openai/triton)	| 8.5k	| Python	| |
+|32| [BabyAGI](https://github.com/yoheinakajima/babyagi)|17.5K| Python | |
+|33| [Auto-GPT](https://github.com/Significant-Gravitas/AutoGPT)|151K| Python | |
+|34| [Evals](https://github.com/openai/evals)|12.2K| Python | |
 
