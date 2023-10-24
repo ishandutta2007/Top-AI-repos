@@ -69,3 +69,8 @@
 
 https://github.com/ggerganov/whisper.cpp
 
+https://github.com/facebookresearch/llama
+
+https://github.com/facebookresearch/segment-anything
+
+
