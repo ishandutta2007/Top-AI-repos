@@ -1,5 +1,8 @@
 # Top-AI-repos
 
+A curated list of the top 100 GitHub repos that cover the AI & ML landscape. If you like to add or update projects, feel free to open an issue or submit a pull request. Contributions are very welcome!
+
+
     
 |<ins>#</ins>|  <ins>Repo</ins>  | <ins>Repo_Stars_______<ins> | <ins>User_Stars________<ins> |  <ins>Language______</ins> |  <ins>Description__________________________________________</ins> |
 |---|---|---|---|---|---|
