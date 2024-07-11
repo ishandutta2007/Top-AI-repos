@@ -7,6 +7,7 @@ If you like to add or update projects, feel free to open an issue or submit a pu
 
 https://github.com/phidatahq/phidata
 https://github.com/rasbt/LLMs-from-scratch
+https://github.com/hiyouga/LLaMA-Factory
     
 |<ins>#</ins>|  <ins>Repo</ins>  | <ins>Repo_Stars_______<ins> | <ins>User_Stars________<ins> |  <ins>Language______</ins> |  <ins>Description__________________________________________</ins> |
 |---|---|---|---|---|---|
