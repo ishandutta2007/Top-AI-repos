@@ -109,3 +109,15 @@ https://github.com/hiyouga/LLaMA-Factory
 https://github.com/stepfun-ai/Step-Video-T2V
 
 https://github.com/bytedance/LatentSync
+
+
+
+##
+
+### 🤔 Questions? Problems? Suggestions?
+
+#### Get help - [Discord 💬](https://discord.gg/jc4xtF58Ve)
+
+[![Join us on Discord](https://invidget.switchblade.xyz/jc4xtF58Ve)](https://discord.gg/jc4xtF58Ve)
+
+##
