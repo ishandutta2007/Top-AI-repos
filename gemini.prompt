@@ -8,3 +8,9 @@ model: googleai/gemini-1.5-pro
 input:
   schema:
     text: For the table in README.md, Sort the rows by Repo_Stars (descending order). Note the stars are not given there as numbers but as a badge(image)
+---
+
+model: googleai/gemini-1.5-pro
+input:
+  schema:
+    text: in readme.me, please fix the rowid for the rows in the table
