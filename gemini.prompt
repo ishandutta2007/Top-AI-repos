@@ -14,10 +14,21 @@ model: googleai/gemini-1.5-pro
 input:
   schema:
     text: in readme.me, please fix the rowid for the rows in the table
-
 ---
 
 model: googleai/gemini-1.5-pro
 input:
   schema:
     text: in readme.md, Can you add a column for initiation year of these projects mentioned in the table, you can get that information by looking up the date on the oldest commit on github.
+---
+
+model: googleai/gemini-1.5-pro
+input:
+  schema:
+    text: In the markdown table in readme.md file, add the "created year" column and fetch the creation year info for the first row ie this repo https://github.com/Significant-Gravitas/AutoGPT and populate that row's value for that new column.
+---
+model: googleai/gemini-1.5-pro
+input:
+  schema:
+    text: In the markdown table in readme.md file, add the value for "created year" column for the 2nd row. You will get the repo link from 2nd column value. And information about created year can be fetched by accessing the oldest commit by command `git log --reverse`, to run that command you might have to clone the repo temporarily as well.
+---
