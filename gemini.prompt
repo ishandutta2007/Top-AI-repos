@@ -32,3 +32,8 @@ input:
   schema:
     text: In the markdown table in readme.md file, add the value for "created year" column for the 2nd row. You will get the repo link from 2nd column value. And information about created year can be fetched by accessing the oldest commit by command `git log --reverse`, to run that command you might have to clone the repo temporarily as well.
 ---
+model: googleai/gemini-1.5-pro
+input:
+  schema:
+    text: great, can you do the same for 3rd row
+---
