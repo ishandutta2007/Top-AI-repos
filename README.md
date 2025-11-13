@@ -4,11 +4,6 @@
 
 We have tried to sort the list in decreasing order of stars.
 If you like to add or update projects, feel free to open an issue or submit a pull request. Contributions are very welcome!
-
-https://github.com/phidatahq/phidata
-https://github.com/rasbt/LLMs-from-scratch
-https://github.com/hiyouga/LLaMA-Factory
-    
 |<ins>#</ins>|  <ins>Repo</ins>  | <ins>Repo_Stars_______<ins> | <ins>User_Stars________<ins> |  <ins>Language______</ins> |  <ins>Description__________________________________________</ins> |
 |---|---|---|---|---|---|
 |1| [Auto-GPT](https://github.com/Significant-Gravitas/AutoGPT)|<a href="https://github.com/Significant-Gravitas/AutoGPT"><img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.herokuapp.com/github/stars/Significant-Gravitas/AutoGPT?logo=star&color=55960c&labelColor=488207&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github.com/repos/Significant-Gravitas/AutoGPT"/></a>| <a href="https://github.com/orgs/Significant-Gravitas/repositories?tab=&sort=stargazers"> <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&color=55960c&labelColor=488207&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/Significant-Gravitas"/></a>| Python | make GPT-4 fully autonomous |
@@ -106,9 +101,11 @@ https://github.com/hiyouga/LLaMA-Factory
 |84| [R-TensorFlow](https://github.com/rstudio/tensorflow)|<a href="https://github.com/rstudio/tensorflow"><img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.herokuapp.com/github/stars/rstudio/tensorflow?logo=star&color=55960c&labelColor=488207&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github.com/repos/rstudio/tensorflow"/></a>| <a href="https://github.com/orgs/rstudio/repositories?tab=&sort=stargazers"> <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&color=55960c&labelColor=488207&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/rstudio"/></a>	| R	|
 |85| [EgoAlpha/prompt-in-context-learning](https://github.com/EgoAlpha/prompt-in-context-learning)|<a href="https://github.com/EgoAlpha/prompt-in-context-learning"><img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.herokuapp.com/github/stars/EgoAlpha/prompt-in-context-learning?logo=star&color=55960c&labelColor=488207&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github.com/repos/EgoAlpha/prompt-in-context-learning"/></a>| <a href="https://github.com/EgoAlpha?tab=repositories&sort=stargazers"> <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&color=55960c&labelColor=488207&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/EgoAlpha"/></a>	| Markdown	| AI Notes, [Substack](https://substack.com/accept-pub-credit?credit_token_referring_user=18f7f&utm_campaign=invite-friends-credits-share&utm_content=give-month-get-credits&pub=1084089) |
 
-https://github.com/stepfun-ai/Step-Video-T2V
-
-https://github.com/bytedance/LatentSync
+- https://github.com/stepfun-ai/Step-Video-T2V
+- https://github.com/bytedance/LatentSync
+- https://github.com/phidatahq/phidata
+- https://github.com/rasbt/LLMs-from-scratch
+- https://github.com/hiyouga/LLaMA-Factory
 
 
 
