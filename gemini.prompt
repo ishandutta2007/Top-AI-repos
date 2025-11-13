@@ -37,3 +37,8 @@ input:
   schema:
     text: great, can you do the same for 3rd row
 ---
+model: googleai/gemini-1.5-pro
+input:
+  schema:
+    text: great, can you do the same for 4th row onwards one by one. after completion of each row make sure you commit the code changes. And after completion of each row prompt me if I want to preceed for the next row.
+---
