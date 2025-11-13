@@ -1,0 +1,10 @@
+model: googleai/gemini-1.5-pro
+input:
+  schema:
+    text: in this readme.md you will find a markdown table and there are some github repo links following it. I want you to add new rows below the existing rows of this table with those links in repo column and their appropiate details in other columns.
+---
+
+model: googleai/gemini-1.5-pro
+input:
+  schema:
+    text: For the table in README.md, Sort the rows by Repo_Stars (descending order). Note the stars are not given there as numbers but as a badge(image)
