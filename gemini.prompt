@@ -27,25 +27,27 @@ input:
   schema:
     text: In the markdown table in readme.md file, add the "created year" column and fetch the creation year info for the first row ie this repo https://github.com/Significant-Gravitas/AutoGPT and populate that row's value for that new column.
 ---
+
 model: googleai/gemini-1.5-pro
 input:
   schema:
     text: In the markdown table in readme.md file, add the value for "created year" column for the 2nd row. You will get the repo link from 2nd column value. And information about created year can be fetched by accessing the oldest commit by command `git log --reverse`, to run that command you might have to clone the repo temporarily as well.
 ---
+
 model: googleai/gemini-1.5-pro
 input:
   schema:
     text: great, can you do the same for 3rd row
 ---
+
 model: googleai/gemini-1.5-pro
 input:
   schema:
     text: great, can you do the same for 4th row onwards one by one. after completion of each row make sure you commit the code changes. And after completion of each row prompt me if I want to preceed for the next row.
 ---
+
 model: googleai/gemini-1.5-pro
 input:
   schema:
-    text: In the markdown table in readme.md file, add the value for "created year" column for the 51st row. You will get the repo link from 2nd column value. And information about
-  created year can be fetched by accessing the oldest commit by command `git log --reverse`, to run that command you might have to clone the repo temporarily as well., once 51st
-  row is done proceed to next row after making a commit and hence continue till end of the table. You need not prompt me for confirmation.
+    text: In the markdown table in readme.md file, add the value for "created year" column for the 52nd row. You will get the repo link from 2nd column value. And information about created year can be fetched by accessing the oldest commit by command `git log --reverse`, to run that command you might have to clone the repo temporarily as well., once 52nd row is done proceed to next row after making a commit and hence continue till end of the table. You need not prompt me for confirmation. If editing of any row fails skip that and proceed to next row.
 ---
