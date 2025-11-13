@@ -14,3 +14,10 @@ model: googleai/gemini-1.5-pro
 input:
   schema:
     text: in readme.me, please fix the rowid for the rows in the table
+
+---
+
+model: googleai/gemini-1.5-pro
+input:
+  schema:
+    text: in readme.md, Can you add a column for initiation year of these projects mentioned in the table, you can get that information by looking up the date on the oldest commit on github.
