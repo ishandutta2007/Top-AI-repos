@@ -107,7 +107,6 @@ If you like to add or update projects, feel free to open an issue or submit a pu
 |99| [LatentSync](https://github.com/bytedance/LatentSync)|<a href="https://github.com/bytedance/LatentSync"><img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.herokuapp.com/github/stars/bytedance/LatentSync?logo=star&color=55960c&labelColor=488207&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github.com/repos/bytedance/LatentSync"/></a>| <a href="https://github.com/bytedance?tab=repositories&sort=stargazers"> <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&color=55960c&labelColor=488207&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/bytedance"/></a>	| Markdown	| AI Notes | 2024 |
 
 
-
 ##
 
 ### 🤔 Questions? Problems? Suggestions?
