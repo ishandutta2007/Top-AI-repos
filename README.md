@@ -111,8 +111,8 @@ If you like to add or update projects, feel free to open an issue or submit a pu
 
 - https://github.com/continuedev/continue
 - https://github.com/TabbyML/tabby
-
-##
+- https://github.com/bytedance/UI-TARS
+- https://github.com/bytedance/UI-TARS-desktop
 
 ### 🤔 Questions? Problems? Suggestions?
 
