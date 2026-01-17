@@ -222,3 +222,7 @@ We have tried to sort the list in decreasing order of stars. If you like to add 
 [![Join us on Discord](https://invidget.switchblade.xyz/jc4xtF58Ve)](https://discord.gg/jc4xtF58Ve)
 
 [Scroll to top](#top-ai-repos)
+
+### ✨ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ishandutta2007/Top-AI-repos&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Top-AI-repos&type=date&legend=top-left)
