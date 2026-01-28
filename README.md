@@ -115,6 +115,14 @@ We have tried to sort the list in decreasing order of stars. If you like to add 
 - https://github.com/bytedance/UI-TARS
 - https://github.com/bytedance/UI-TARS-desktop
 
+- https://github.com/badlogic/pi-mono
+- https://github.com/asgeirtj/system_prompts_leaks
+- https://github.com/NevaMind-AI/memU
+- https://github.com/MoonshotAI/kimi-cli
+- https://github.com/lobehub/lobehub
+- https://github.com/GetStream/Vision-Agents
+
+
 ### 🤔 Questions? Problems? Suggestions?
 
 #### Get help - [Discord 💬](https://discord.gg/jc4xtF58Ve)
