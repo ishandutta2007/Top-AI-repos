@@ -1,6 +1,6 @@
-# 🤖 Top-AI-Repos: A Curated List of Top 100 AI/ML GitHub Repositories ⭐️
+# 🚀 Top-AI-Repos: Discover the Best Open-Source AI/ML Projects on GitHub (Generative AI, LLMs, Deep Learning, & More) ⭐️
 
-A curated list of the top 100 GitHub repositories that cover the Artificial Intelligence (AI) and Machine Learning (ML) landscape. This list includes open-source projects, libraries, and resources for deep learning, natural language processing (NLP), computer vision, and more.
+Explore a meticulously curated list of the top 100 GitHub repositories in Artificial Intelligence (AI) and Machine Learning (ML). This comprehensive guide highlights cutting-edge open-source projects, essential libraries, and valuable resources across various domains, including Generative AI, Large Language Models (LLMs), deep learning, natural language processing (NLP), computer vision, and AI research. Whether you're searching on Google, Bing, or exploring AI platforms like Gemini, ChatGPT, Perplexity AI, or DeepSeek, this repository aims to be your definitive source for leading AI innovations.
 
 We have tried to sort the list in decreasing order of stars. If you like to add or update projects, feel free to open an issue or submit a pull request. Contributions are very welcome! 🚀
 
