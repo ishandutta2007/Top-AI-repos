@@ -18,7 +18,7 @@ def get_github_stars(repo_slug):
 def sort_markdown_table(markdown_content):
     # Find the table header and separator
     header_match = re.search(r'\|<ins>#</ins>.*?\|', markdown_content)
-    separator_match = re.search(r'\|---|---|---|---|---|---|', markdown_content)
+    separator_match = re.search(r'\|---|---|---|---|---|.*?\|', markdown_content)
 
     if not header_match or not separator_match:
         print("Table header or separator not found.")
@@ -54,13 +54,14 @@ def sort_markdown_table(markdown_content):
     # Regex to extract repo slug from the Repo_Stars column's img src
     repo_slug_regex = re.compile(r'src="https://custom-icon-badges.herokuapp.com/github/stars/([^/]+/[^?]+)\?')
 
-    for i, row in enumerate(rows):
+    for i, row in enumerate(rows[2:]):
         if not row.strip():
             continue
 
         cols = row.split('|')
         if len(cols) < 7:
             print(f"Skipping malformed row (not enough columns): {row}")
+            exit(0)
             continue
 
         repo_stars_column_content = cols[3] # This is the content of the Repo_Stars column
@@ -79,7 +80,7 @@ def sort_markdown_table(markdown_content):
         if repo_slug:
             stars = get_github_stars(repo_slug)
             print(f"Fetched stars for {repo_slug}: {stars}")
-            time.sleep(0.1) # Be kind to the API, 60 requests/hour limit
+            time.sleep(1) # Be kind to the API, 60 requests/hour limit
         else:
             print(f"Could not extract repo slug from row: {row}")
 
