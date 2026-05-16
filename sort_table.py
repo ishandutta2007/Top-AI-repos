@@ -154,7 +154,7 @@ def sort_markdown_table(markdown_content):
     new_table_body = "\n".join(sorted_rows)
     
     # Construct the new full table block
-    new_full_table_block = original_header_line + original_separator_line + "\n" + new_table_body + "\n"
+    new_full_table_block = original_header_line + original_separator_line + new_table_body + "\n"
 
     # Construct the full new markdown content
     new_markdown_content = content_before_table + new_full_table_block + content_after_table
