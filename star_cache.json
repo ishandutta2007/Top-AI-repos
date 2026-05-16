@@ -478,5 +478,9 @@
     "n8n-io/n8n": {
         "stars": 188070,
         "timestamp": "2026-05-16T16:34:34.334504"
+    },
+    "Stability-AI/StableLM": {
+        "stars": 15704,
+        "timestamp": "2026-05-16T17:02:27.308519"
     }
 }
