@@ -69,8 +69,8 @@ def get_github_stars(repo_slug):
 
 def sort_markdown_table(markdown_content):
     # Find the table header and separator
-    header_match = re.search(r'\|<ins>#</ins>.*?\|', markdown_content)
-    separator_match = re.search(r'\|---|---|---|---|---|.*?\|', markdown_content)
+    header_match = re.search(r'\|<ins>#</ins>[^\n]*\n', markdown_content)
+    separator_match = re.search(r'\|---[^\n]*\n', markdown_content)
 
     if not header_match or not separator_match:
         print("Table header or separator not found.")
