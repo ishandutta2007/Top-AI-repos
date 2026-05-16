@@ -2,12 +2,21 @@ import re
 import requests
 import os
 import time
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+GITHUB_TOKEN = os.getenv("VITE_GITHUB_TOKEN")
 
 def get_github_stars(repo_slug):
     """Fetches the star count for a given GitHub repository slug."""
     api_url = f"https://api.github.com/repos/{repo_slug}"
+    headers = {}
+    if GITHUB_TOKEN:
+        headers["Authorization"] = f"token {GITHUB_TOKEN}"
+    
     try:
-        response = requests.get(api_url, timeout=10)
+        response = requests.get(api_url, headers=headers, timeout=10)
         response.raise_for_status()  # Raise an exception for HTTP errors
         data = response.json()
         return data.get("stargazers_count", 0)
@@ -54,14 +63,13 @@ def sort_markdown_table(markdown_content):
     # Regex to extract repo slug from the Repo_Stars column's img src
     repo_slug_regex = re.compile(r'src="https://custom-icon-badges.herokuapp.com/github/stars/([^/]+/[^?]+)\?')
 
-    for i, row in enumerate(rows[2:]):
+    for i, row in enumerate(rows):
         if not row.strip():
             continue
 
         cols = row.split('|')
         if len(cols) < 7:
             print(f"Skipping malformed row (not enough columns): {row}")
-            exit(0)
             continue
 
         repo_stars_column_content = cols[3] # This is the content of the Repo_Stars column
@@ -80,7 +88,7 @@ def sort_markdown_table(markdown_content):
         if repo_slug:
             stars = get_github_stars(repo_slug)
             print(f"Fetched stars for {repo_slug}: {stars}")
-            time.sleep(1) # Be kind to the API, 60 requests/hour limit
+            time.sleep(0.1) # Be kind to the API, 5000 requests/hour limit with token
         else:
             print(f"Could not extract repo slug from row: {row}")
 
