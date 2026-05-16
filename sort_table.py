@@ -2,14 +2,47 @@ import re
 import requests
 import os
 import time
+import json
+from datetime import datetime, timedelta
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
 load_dotenv()
 GITHUB_TOKEN = os.getenv("VITE_GITHUB_TOKEN")
+CACHE_FILE = "star_cache.json"
+CACHE_EXPIRATION_HOURS = 24
+
+def load_cache():
+    if os.path.exists(CACHE_FILE):
+        try:
+            with open(CACHE_FILE, 'r') as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"Error loading cache: {e}")
+    return {}
+
+def save_cache(cache):
+    try:
+        with open(CACHE_FILE, 'w') as f:
+            json.dump(cache, f, indent=4)
+    except Exception as e:
+        print(f"Error saving cache: {e}")
+
+# Global cache object
+star_cache = load_cache()
 
 def get_github_stars(repo_slug):
-    """Fetches the star count for a given GitHub repository slug."""
+    """Fetches the star count for a given GitHub repository slug with caching."""
+    now = datetime.now()
+    
+    # Check cache first
+    if repo_slug in star_cache:
+        cached_data = star_cache[repo_slug]
+        cached_time = datetime.fromisoformat(cached_data['timestamp'])
+        if now - cached_time < timedelta(hours=CACHE_EXPIRATION_HOURS):
+            # print(f"Using cached stars for {repo_slug}: {cached_data['stars']}")
+            return cached_data['stars']
+
     api_url = f"https://api.github.com/repos/{repo_slug}"
     headers = {}
     if GITHUB_TOKEN:
@@ -19,9 +52,19 @@ def get_github_stars(repo_slug):
         response = requests.get(api_url, headers=headers, timeout=10)
         response.raise_for_status()  # Raise an exception for HTTP errors
         data = response.json()
-        return data.get("stargazers_count", 0)
+        stars = data.get("stargazers_count", 0)
+        
+        # Update cache
+        star_cache[repo_slug] = {
+            'stars': stars,
+            'timestamp': now.isoformat()
+        }
+        return stars
     except requests.exceptions.RequestException as e:
         print(f"Error fetching stars for {repo_slug}: {e}")
+        # Return cached value if available even if expired, as fallback
+        if repo_slug in star_cache:
+            return star_cache[repo_slug]['stars']
         return -1  # Return -1 to indicate an error, will be sorted to the bottom
 
 def sort_markdown_table(markdown_content):
@@ -129,4 +172,5 @@ updated_content = sort_markdown_table(content)
 with open(file_path, 'w', encoding='utf-8') as f:
     f.write(updated_content)
 
+save_cache(star_cache)
 print("Table sorting complete. Check README.md")
