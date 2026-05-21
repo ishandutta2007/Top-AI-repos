@@ -1,2 +1,4 @@
 temp_repo_clone
 *.bk
+*.bak
+*.env
