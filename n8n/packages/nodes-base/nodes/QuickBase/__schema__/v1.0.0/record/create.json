@@ -1,9 +1,0 @@
-{
-    "type": "object",
-    "properties": {
-        "3": {
-            "type": "integer"
-        }
-    },
-    "version": 1
-}

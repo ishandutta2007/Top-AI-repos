@@ -1,1 +1,0 @@
-export { useSidebarExpandedExperiment } from './useSidebarExpandedExperiment';
