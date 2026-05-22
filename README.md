@@ -138,7 +138,7 @@ We have tried to sort the list in decreasing order of stars. If you like to add 
 A huge thank you to everyone who has contributed to this project!
 
 <a href="https://github.com/ishandutta2007/Top-AI-repos/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ishandutta2007/Top-AI-repos" />
+  <img src="https://contrib.rocks/image?repo=ishandutta2007/Top-AI-repos&max=500" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
