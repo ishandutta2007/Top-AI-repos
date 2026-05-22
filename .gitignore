@@ -3,3 +3,5 @@ temp_repo_clone
 *.bak
 *.env
 TBI
+invite.py
+successful_invites.txt
