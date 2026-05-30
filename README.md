@@ -564,6 +564,7 @@ A huge thank you to everyone who has contributed to this project!
 <a href="https://github.com/ddzobov"><img src="https://avatars.githubusercontent.com/u/9539529?v=4&s=32" width="32" height="32" alt="ddzobov" /></a>
 <a href="https://github.com/davidgs"><img src="https://avatars.githubusercontent.com/u/2071898?v=4&s=32" width="32" height="32" alt="davidgs" /></a>
 <a href="https://github.com/DMA902"><img src="https://avatars.githubusercontent.com/u/47725056?v=4&s=32" width="32" height="32" alt="DMA902" /></a>
+<a href="https://github.com/thushan-123"><img src="https://avatars.githubusercontent.com/u/162820036?v=4&s=32" width="32" height="32" alt="thushan-123" /></a>
 
 Made with [contrib.rocks](https://contrib.rocks).
 
