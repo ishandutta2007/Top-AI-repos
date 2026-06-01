@@ -1,0 +1,36 @@
+name: Auto-Close Conflicted Pull Requests
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  manage-conflicts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Mergeability and Close PR
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { owner, repo } = context.repo;
+            const prNumber = context.payload.pull_request.number;
+
+            // Fetch PR details to check mergeable status
+            const pr = await github.rest.pulls.get({
+              owner, repo, pull_number: prNumber,
+            });
+
+            // If mergeable is false, a merge conflict exists
+            if (pr.data.mergeable === false) {
+              // 1. Post a comment
+              await github.rest.issues.createComment({
+                owner, repo, issue_number: prNumber,
+                body: "⚠️ **Pull Request Closed** ⚠️\n\nThis pull request has been automatically closed because it contains **merge conflicts**."
+              });
+
+              // 2. Close the Pull Request
+              await github.rest.pulls.update({
+                owner, repo, pull_number: prNumber, state: "closed"
+              });
+            }
