@@ -562,5 +562,21 @@
     "f/prompts.chat": {
         "stars": 163347,
         "timestamp": "2026-06-06T08:50:46.973576"
+    },
+    "deepspeedai/deepspeed": {
+        "stars": 42476,
+        "timestamp": "2026-06-06T11:57:44.572414"
+    },
+    "mozilla-ai/llamafile": {
+        "stars": 24669,
+        "timestamp": "2026-06-06T11:57:45.250922"
+    },
+    "lyogavin/airllm": {
+        "stars": 19440,
+        "timestamp": "2026-06-06T11:57:45.927404"
+    },
+    "ashishpatel26/500-AI-Agents-Projects": {
+        "stars": 31766,
+        "timestamp": "2026-06-06T11:57:46.547608"
     }
 }
