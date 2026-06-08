@@ -1,5 +1,34 @@
 # 🚀 Top-AI-Repos: Discover the Best Open-Source AI/ML Projects on GitHub (Generative AI, LLMs, Deep Learning, & More) ⭐️
 
+<p align="center">
+  <a href="https://discord.gg/jc4xtF58Ve">
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  </a>
+  <a href="https://github.com/ishandutta2007/Top-AI-repos/actions/workflows/python-package.yml">
+    <img src="https://github.com/ishandutta2007/Top-AI-repos/actions/workflows/python-package.yml/badge.svg" alt="Build Status" />
+  </a>
+  <a href="https://github.com/ishandutta2007/Top-AI-repos/stargazers">
+    <img src="https://img.shields.io/github/stars/ishandutta2007/Top-AI-repos?style=for-the-badge&logo=github" alt="Stars" />
+  </a>
+  <a href="https://github.com/ishandutta2007/Top-AI-repos/network/members">
+    <img src="https://img.shields.io/github/forks/ishandutta2007/Top-AI-repos?style=for-the-badge&logo=github" alt="Forks" />
+  </a>
+  <a href="https://github.com/ishandutta2007/Top-AI-repos/issues">
+    <img src="https://img.shields.io/github/issues/ishandutta2007/Top-AI-repos?style=for-the-badge" alt="Issues" />
+  </a>
+  <a href="https://github.com/ishandutta2007/Top-AI-repos/pulls">
+    <img src="https://img.shields.io/github/issues-pr/ishandutta2007/Top-AI-repos?style=for-the-badge" alt="Pull Requests" />
+  </a>
+  <a href="https://github.com/ishandutta2007/Top-AI-repos/graphs/commit-activity">
+    <img src="https://img.shields.io/github/last-commit/ishandutta2007/Top-AI-repos?style=for-the-badge" alt="Last Commit" />
+  </a>
+  <img src="https://img.shields.io/github/repo-size/ishandutta2007/Top-AI-repos?style=for-the-badge" alt="Repo Size" />
+  <br />
+  <br />
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+
+</p>
+
 Explore a meticulously curated list of the top 100 GitHub repositories in Artificial Intelligence (AI) and Machine Learning (ML). This comprehensive guide highlights cutting-edge open-source projects, essential libraries, and valuable resources across various domains, including Generative AI, Large Language Models (LLMs), deep learning, natural language processing (NLP), computer vision, and AI research. Whether you're searching on Google, Bing, or exploring AI platforms like Gemini, ChatGPT, Perplexity AI, or DeepSeek, this repository aims to be your definitive source for leading AI innovations.
 
 We have tried to sort the list in decreasing order of stars. If you like to add or update projects, feel free to open an issue or submit a pull request. Contributions are very welcome! 🚀
