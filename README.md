@@ -600,7 +600,7 @@ Made with [contrib.rocks](https://contrib.rocks).
 
 [![Join us on Discord](https://invidget.switchblade.xyz/jc4xtF58Ve)](https://discord.gg/jc4xtF58Ve)
 
-![GitHub followers](https://img.shields.io/github/followers/ishandutta2007?label=Follow)
+![GitHub followers](https://img.shields.io/github/followers/ishandutta2007?label=Follow&link=https%3A%2F%2Fgithub.com%2Fishandutta2007)
 
 [Scroll to top](#top-ai-repos)
 
