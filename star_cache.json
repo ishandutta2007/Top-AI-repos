@@ -1,598 +1,606 @@
 {
     "Significant-Gravitas/AutoGPT": {
-        "stars": 184788,
-        "timestamp": "2026-06-06T08:49:04.191517"
+        "stars": 184859,
+        "timestamp": "2026-06-09T19:13:11.585456"
     },
     "AUTOMATIC1111/stable-diffusion-webui": {
-        "stars": 163488,
-        "timestamp": "2026-06-06T08:49:05.634967"
+        "stars": 163572,
+        "timestamp": "2026-06-09T19:13:13.145685"
     },
     "huggingface/transformers": {
-        "stars": 161334,
-        "timestamp": "2026-06-06T08:49:06.304751"
+        "stars": 161443,
+        "timestamp": "2026-06-09T19:13:14.639233"
     },
     "langchain-ai/langchain": {
-        "stars": 138612,
-        "timestamp": "2026-06-06T08:49:09.059447"
+        "stars": 138879,
+        "timestamp": "2026-06-09T19:13:17.744685"
     },
     "comfyanonymous/ComfyUI": {
-        "stars": 115876,
-        "timestamp": "2026-06-06T08:49:10.437292"
+        "stars": 116325,
+        "timestamp": "2026-06-09T19:13:19.341908"
     },
     "ggerganov/llama.cpp": {
-        "stars": 114877,
-        "timestamp": "2026-06-06T08:49:11.491506"
+        "stars": 115744,
+        "timestamp": "2026-06-09T19:13:20.543686"
     },
     "pytorch/pytorch": {
-        "stars": 100539,
-        "timestamp": "2026-06-06T08:49:13.948652"
+        "stars": 100614,
+        "timestamp": "2026-06-09T19:13:23.270325"
     },
     "rasbt/LLMs-from-scratch": {
-        "stars": 96726,
-        "timestamp": "2026-06-06T08:49:14.677625"
+        "stars": 96907,
+        "timestamp": "2026-06-09T19:13:24.079731"
     },
     "Yidadaa/ChatGPT-Next-Web": {
-        "stars": 88180,
-        "timestamp": "2026-06-06T08:49:15.330775"
+        "stars": 88205,
+        "timestamp": "2026-06-09T19:13:24.821723"
     },
     "nomic-ai/gpt4all": {
-        "stars": 77358,
-        "timestamp": "2026-06-06T08:49:18.375586"
+        "stars": 77359,
+        "timestamp": "2026-06-09T19:13:28.785233"
     },
     "lobehub/lobehub": {
-        "stars": 78250,
-        "timestamp": "2026-06-06T08:49:17.665791"
+        "stars": 78406,
+        "timestamp": "2026-06-09T19:13:28.008166"
     },
     "CompVis/stable-diffusion": {
-        "stars": 73081,
-        "timestamp": "2026-06-06T08:49:19.082181"
+        "stars": 73090,
+        "timestamp": "2026-06-09T19:13:29.571063"
     },
     "hiyouga/LLaMA-Factory": {
-        "stars": 71933,
-        "timestamp": "2026-06-06T08:49:20.169457"
+        "stars": 72029,
+        "timestamp": "2026-06-09T19:13:30.315580"
     },
     "binary-husky/gpt_academic": {
-        "stars": 70830,
-        "timestamp": "2026-06-06T08:49:21.122820"
+        "stars": 70861,
+        "timestamp": "2026-06-09T19:13:31.406436"
     },
     "xtekky/gpt4free": {
-        "stars": 66291,
-        "timestamp": "2026-06-06T08:49:22.440936"
+        "stars": 66318,
+        "timestamp": "2026-06-09T19:13:33.307272"
     },
     "scikit-learn/scikit-learn": {
-        "stars": 66260,
-        "timestamp": "2026-06-06T08:49:23.093080"
+        "stars": 66280,
+        "timestamp": "2026-06-09T19:13:34.105930"
     },
     "keras-team/keras": {
-        "stars": 64089,
-        "timestamp": "2026-06-06T08:49:24.462736"
+        "stars": 64079,
+        "timestamp": "2026-06-09T19:13:35.695270"
     },
     "facebookresearch/llama": {
-        "stars": 59454,
-        "timestamp": "2026-06-06T08:49:26.552553"
+        "stars": 59452,
+        "timestamp": "2026-06-09T19:13:39.311203"
     },
     "karpathy/nanoGPT": {
-        "stars": 59263,
-        "timestamp": "2026-06-06T08:49:28.636769"
+        "stars": 59392,
+        "timestamp": "2026-06-09T19:13:40.487594"
     },
     "microsoft/autogen": {
-        "stars": 58722,
-        "timestamp": "2026-06-06T08:49:29.346095"
+        "stars": 58807,
+        "timestamp": "2026-06-09T19:13:41.608531"
     },
     "imartinez/privateGPT": {
-        "stars": 57211,
-        "timestamp": "2026-06-06T08:49:31.080765"
+        "stars": 57216,
+        "timestamp": "2026-06-09T19:13:43.825732"
     },
     "embedchain/embedchain": {
-        "stars": 57834,
-        "timestamp": "2026-06-06T08:49:30.044570"
+        "stars": 58159,
+        "timestamp": "2026-06-09T19:13:42.454038"
     },
     "facebookresearch/segment-anything": {
-        "stars": 54299,
-        "timestamp": "2026-06-06T08:49:32.755807"
+        "stars": 54320,
+        "timestamp": "2026-06-09T19:13:45.779172"
     },
     "ggerganov/whisper.cpp": {
-        "stars": 50491,
-        "timestamp": "2026-06-06T08:49:34.721913"
+        "stars": 50592,
+        "timestamp": "2026-06-09T19:13:48.121100"
     },
     "run-llama/llama_index": {
-        "stars": 49942,
-        "timestamp": "2026-06-06T08:49:35.749151"
+        "stars": 50033,
+        "timestamp": "2026-06-09T19:13:49.304328"
     },
     "huginn/huginn": {
-        "stars": 49402,
-        "timestamp": "2026-06-06T08:49:36.410703"
+        "stars": 49445,
+        "timestamp": "2026-06-09T19:13:50.863438"
     },
     "BerriAI/litellm": {
-        "stars": 49434,
-        "timestamp": "2026-06-06T08:49:37.085282"
+        "stars": 49779,
+        "timestamp": "2026-06-09T19:13:50.100341"
     },
     "go-skynet/LocalAI": {
-        "stars": 46698,
-        "timestamp": "2026-06-06T08:49:37.783194"
+        "stars": 46747,
+        "timestamp": "2026-06-09T19:13:51.660715"
     },
     "coqui-ai/TTS": {
-        "stars": 45497,
-        "timestamp": "2026-06-06T08:49:39.439176"
+        "stars": 45518,
+        "timestamp": "2026-06-09T19:13:53.544242"
     },
     "Aider-AI/aider": {
-        "stars": 45817,
-        "timestamp": "2026-06-06T08:49:38.713018"
+        "stars": 45925,
+        "timestamp": "2026-06-09T19:13:52.804230"
     },
     "milvus-io/milvus": {
-        "stars": 44648,
-        "timestamp": "2026-06-06T08:49:40.115453"
+        "stars": 44699,
+        "timestamp": "2026-06-09T19:13:54.272055"
     },
     "gradio-app/gradio": {
-        "stars": 42822,
-        "timestamp": "2026-06-06T08:49:41.433695"
+        "stars": 42862,
+        "timestamp": "2026-06-09T19:13:55.818251"
     },
     "THUDM/ChatGLM-6B": {
-        "stars": 41056,
-        "timestamp": "2026-06-06T08:49:42.753258"
+        "stars": 41053,
+        "timestamp": "2026-06-09T19:13:58.127679"
     },
     "LAION-AI/Open-Assistant": {
-        "stars": 37410,
-        "timestamp": "2026-06-06T08:49:46.429335"
+        "stars": 37402,
+        "timestamp": "2026-06-09T19:14:02.326570"
     },
     "reworkd/AgentGPT": {
-        "stars": 36156,
-        "timestamp": "2026-06-06T08:49:47.110032"
+        "stars": 36173,
+        "timestamp": "2026-06-09T19:14:03.164728"
     },
     "BVLC/caffe": {
-        "stars": 34582,
-        "timestamp": "2026-06-06T08:49:48.543509"
+        "stars": 34581,
+        "timestamp": "2026-06-09T19:14:04.664355"
     },
     "facebookresearch/detectron2": {
-        "stars": 34528,
-        "timestamp": "2026-06-06T08:49:49.238328"
+        "stars": 34537,
+        "timestamp": "2026-06-09T19:14:05.447088"
     },
     "moymix/TaskMatrix": {
-        "stars": 34097,
-        "timestamp": "2026-06-06T08:49:49.922360"
+        "stars": 34089,
+        "timestamp": "2026-06-09T19:14:06.898221"
     },
     "explosion/spaCy": {
-        "stars": 33635,
-        "timestamp": "2026-06-06T08:49:52.356898"
+        "stars": 33643,
+        "timestamp": "2026-06-09T19:14:09.531883"
     },
     "TabbyML/tabby": {
-        "stars": 33563,
-        "timestamp": "2026-06-06T08:49:53.102851"
+        "stars": 33580,
+        "timestamp": "2026-06-09T19:14:10.333123"
     },
     "continuedev/continue": {
-        "stars": 33557,
-        "timestamp": "2026-06-06T08:49:53.799820"
+        "stars": 33628,
+        "timestamp": "2026-06-09T19:14:11.124153"
     },
     "facebookresearch/fairseq": {
-        "stars": 32226,
-        "timestamp": "2026-06-06T08:49:55.278269"
+        "stars": 32230,
+        "timestamp": "2026-06-09T19:14:12.714593"
     },
     "Lightning-AI/lightning": {
-        "stars": 31174,
-        "timestamp": "2026-06-06T08:49:55.998886"
+        "stars": 31178,
+        "timestamp": "2026-06-09T19:14:14.191947"
     },
     "fastai/fastai": {
-        "stars": 28021,
-        "timestamp": "2026-06-06T08:49:57.847268"
+        "stars": 28024,
+        "timestamp": "2026-06-09T19:14:16.136274"
     },
     "invoke-ai/InvokeAI": {
-        "stars": 27361,
-        "timestamp": "2026-06-06T08:49:58.547505"
+        "stars": 27397,
+        "timestamp": "2026-06-09T19:14:16.918831"
     },
     "Vision-CAIR/MiniGPT-4": {
-        "stars": 25688,
-        "timestamp": "2026-06-06T08:49:59.934163"
+        "stars": 25681,
+        "timestamp": "2026-06-09T19:14:18.403368"
     },
     "mindsdb/mindsdb": {
-        "stars": 39252,
-        "timestamp": "2026-06-06T08:49:44.781586"
+        "stars": 39272,
+        "timestamp": "2026-06-09T19:14:00.393947"
     },
     "phidatahq/phidata": {
-        "stars": 40537,
-        "timestamp": "2026-06-06T08:49:43.778762"
+        "stars": 40606,
+        "timestamp": "2026-06-09T19:13:59.236412"
     },
     "huggingface/diffusers": {
-        "stars": 33788,
-        "timestamp": "2026-06-06T08:49:50.889968"
+        "stars": 33811,
+        "timestamp": "2026-06-09T19:14:08.749361"
     },
     "Stability-AI/generative-models": {
-        "stars": 27171,
-        "timestamp": "2026-06-06T08:49:59.233973"
+        "stars": 27180,
+        "timestamp": "2026-06-09T19:14:17.633181"
     },
     "yoheinakajima/babyagi": {
-        "stars": 22294,
-        "timestamp": "2026-06-06T08:50:04.209060"
+        "stars": 22297,
+        "timestamp": "2026-06-09T19:14:24.631701"
     },
     "openai/chatgpt-retrieval-plugin": {
-        "stars": 21198,
-        "timestamp": "2026-06-06T08:50:06.222577"
+        "stars": 21194,
+        "timestamp": "2026-06-09T19:14:26.872955"
     },
     "ymcui/Chinese-LLaMA-Alpaca": {
-        "stars": 18949,
-        "timestamp": "2026-06-06T08:50:10.035355"
+        "stars": 18951,
+        "timestamp": "2026-06-09T19:14:31.747303"
     },
     "apple/ml-stable-diffusion": {
-        "stars": 17865,
-        "timestamp": "2026-06-06T08:50:12.806490"
+        "stars": 17866,
+        "timestamp": "2026-06-09T19:14:34.741382"
     },
     "Sanster/lama-cleaner": {
-        "stars": 23174,
-        "timestamp": "2026-06-06T08:50:02.168953"
+        "stars": 23197,
+        "timestamp": "2026-06-09T19:14:22.374029"
     },
     "apache/mxnet": {
-        "stars": 20809,
-        "timestamp": "2026-06-06T08:50:06.943544"
+        "stars": 20807,
+        "timestamp": "2026-06-09T19:14:27.687356"
     },
     "cpacker/MemGPT": {
-        "stars": 23160,
-        "timestamp": "2026-06-06T08:50:03.150943"
+        "stars": 23226,
+        "timestamp": "2026-06-09T19:14:23.481604"
     },
     "borisdayma/dalle-mini": {
-        "stars": 14757,
-        "timestamp": "2026-06-06T08:50:19.577322"
+        "stars": 14754,
+        "timestamp": "2026-06-09T19:14:42.061477"
     },
     "karpathy/llama2.c": {
-        "stars": 19597,
-        "timestamp": "2026-06-06T08:50:07.653144"
+        "stars": 19609,
+        "timestamp": "2026-06-09T19:14:28.487824"
     },
     "fauxpilot/fauxpilot": {
-        "stars": 14730,
-        "timestamp": "2026-06-06T08:50:20.189498"
+        "stars": 14732,
+        "timestamp": "2026-06-09T19:14:43.524972"
     },
     "openai/evals": {
-        "stars": 18617,
-        "timestamp": "2026-06-06T08:50:11.383079"
+        "stars": 18640,
+        "timestamp": "2026-06-09T19:14:33.235684"
     },
     "scipy/scipy": {
-        "stars": 14735,
-        "timestamp": "2026-06-06T08:50:20.858623"
+        "stars": 14742,
+        "timestamp": "2026-06-09T19:14:42.747869"
     },
     "google-deepmind/deepmind-research": {
-        "stars": 14989,
-        "timestamp": "2026-06-06T08:50:18.823838"
+        "stars": 15001,
+        "timestamp": "2026-06-09T19:14:41.276696"
     },
     "WongKinYiu/yolov7": {
-        "stars": 14099,
-        "timestamp": "2026-06-06T08:50:22.266535"
+        "stars": 14101,
+        "timestamp": "2026-06-09T19:14:45.116099"
     },
     "karpathy/char-rnn": {
-        "stars": 12060,
-        "timestamp": "2026-06-06T08:50:25.002565"
+        "stars": 12061,
+        "timestamp": "2026-06-09T19:14:48.028011"
     },
     "eosphoros-ai/DB-GPT": {
-        "stars": 18918,
-        "timestamp": "2026-06-06T08:50:10.688279"
+        "stars": 18952,
+        "timestamp": "2026-06-09T19:14:32.464981"
     },
     "karpathy/convnetjs": {
-        "stars": 11174,
-        "timestamp": "2026-06-06T08:50:26.440641"
+        "stars": 11170,
+        "timestamp": "2026-06-09T19:14:49.500826"
     },
     "google-deepmind/alphafold": {
-        "stars": 14648,
-        "timestamp": "2026-06-06T08:50:21.576775"
+        "stars": 14651,
+        "timestamp": "2026-06-09T19:14:44.300240"
     },
     "transitive-bullshit/agentic": {
-        "stars": 18118,
-        "timestamp": "2026-06-06T08:50:12.069388"
+        "stars": 18117,
+        "timestamp": "2026-06-09T19:14:34.035558"
     },
     "joonspk-research/generative_agents": {
-        "stars": 21470,
-        "timestamp": "2026-06-06T08:50:04.879525"
+        "stars": 21495,
+        "timestamp": "2026-06-09T19:14:25.343687"
     },
     "sunner/ChatALL": {
-        "stars": 16406,
-        "timestamp": "2026-06-06T08:50:15.677588"
+        "stars": 16412,
+        "timestamp": "2026-06-09T19:14:37.932880"
     },
     "huggingface/peft": {
-        "stars": 21237,
-        "timestamp": "2026-06-06T08:50:05.524385"
+        "stars": 21254,
+        "timestamp": "2026-06-09T19:14:26.129383"
     },
     "IDEA-Research/Grounded-Segment-Anything": {
-        "stars": 17613,
-        "timestamp": "2026-06-06T08:50:14.235657"
+        "stars": 17625,
+        "timestamp": "2026-06-09T19:14:36.349815"
     },
     "iperov/DeepFaceLab": {
-        "stars": 19231,
-        "timestamp": "2026-06-06T08:50:09.363353"
+        "stars": 19233,
+        "timestamp": "2026-06-09T19:14:31.005112"
     },
     "danny-avila/LibreChat": {
-        "stars": 38221,
-        "timestamp": "2026-06-06T08:49:45.795652"
+        "stars": 38739,
+        "timestamp": "2026-06-09T19:14:01.616430"
     },
     "PaddlePaddle/PaddleNLP": {
-        "stars": 12949,
-        "timestamp": "2026-06-06T08:50:23.636419"
+        "stars": 12951,
+        "timestamp": "2026-06-09T19:14:46.595685"
     },
     "Theano/Theano": {
         "stars": 9995,
-        "timestamp": "2026-06-06T08:50:28.412669"
+        "timestamp": "2026-06-09T19:14:52.067974"
     },
     "tflearn/tflearn": {
         "stars": 9579,
-        "timestamp": "2026-06-06T08:50:29.851614"
+        "timestamp": "2026-06-09T19:14:53.688102"
     },
     "google-deepmind/sonnet": {
-        "stars": 9921,
-        "timestamp": "2026-06-06T08:50:29.125782"
+        "stars": 9922,
+        "timestamp": "2026-06-09T19:14:52.895576"
     },
     "chroma-core/chroma": {
-        "stars": 28236,
-        "timestamp": "2026-06-06T08:49:57.075997"
+        "stars": 28323,
+        "timestamp": "2026-06-09T19:14:15.320523"
     },
     "openai/triton": {
-        "stars": 19368,
-        "timestamp": "2026-06-06T08:50:08.322312"
+        "stars": 19401,
+        "timestamp": "2026-06-09T19:14:29.864234"
     },
     "h2oai/h2ogpt": {
-        "stars": 11987,
-        "timestamp": "2026-06-06T08:50:25.661549"
+        "stars": 11988,
+        "timestamp": "2026-06-09T19:14:48.718312"
     },
     "weaviate/weaviate": {
-        "stars": 16278,
-        "timestamp": "2026-06-06T08:50:16.735266"
+        "stars": 16303,
+        "timestamp": "2026-06-09T19:14:39.028688"
     },
     "catboost/catboost": {
-        "stars": 8973,
-        "timestamp": "2026-06-06T08:50:30.540790"
+        "stars": 8976,
+        "timestamp": "2026-06-09T19:14:54.492040"
     },
     "deep-floyd/IF": {
         "stars": 7814,
-        "timestamp": "2026-06-06T08:50:34.077071"
+        "timestamp": "2026-06-09T19:14:59.350131"
     },
     "ashawkey/stable-dreamfusion": {
-        "stars": 8837,
-        "timestamp": "2026-06-06T08:50:31.965507"
+        "stars": 8838,
+        "timestamp": "2026-06-09T19:14:56.127665"
     },
     "deeppavlov/DeepPavlov": {
         "stars": 6987,
-        "timestamp": "2026-06-06T08:50:36.960877"
+        "timestamp": "2026-06-09T19:15:01.832693"
     },
     "bmaltais/kohya_ss": {
-        "stars": 12344,
-        "timestamp": "2026-06-06T08:50:24.318782"
+        "stars": 12358,
+        "timestamp": "2026-06-09T19:14:47.313264"
     },
     "bentoml/BentoML": {
-        "stars": 8667,
-        "timestamp": "2026-06-06T08:50:32.650429"
+        "stars": 8670,
+        "timestamp": "2026-06-09T19:14:56.832588"
     },
     "mosaicml/composer": {
-        "stars": 5486,
-        "timestamp": "2026-06-06T08:50:39.640118"
+        "stars": 5485,
+        "timestamp": "2026-06-09T19:15:04.894726"
     },
     "Azure-Samples/azure-search-openai-demo": {
-        "stars": 7679,
-        "timestamp": "2026-06-06T08:50:34.767917"
+        "stars": 7681,
+        "timestamp": "2026-06-09T19:15:00.145186"
     },
     "huggingface/chat-ui": {
-        "stars": 10746,
-        "timestamp": "2026-06-06T08:50:27.708785"
+        "stars": 10753,
+        "timestamp": "2026-06-09T19:14:51.054035"
     },
     "Significant-Gravitas/Auto-GPT-Plugins": {
         "stars": 3834,
-        "timestamp": "2026-06-06T08:50:41.064304"
+        "timestamp": "2026-06-09T19:15:07.359374"
     },
     "mosaicml/llm-foundry": {
-        "stars": 4406,
-        "timestamp": "2026-06-06T08:50:40.327315"
+        "stars": 4405,
+        "timestamp": "2026-06-09T19:15:06.541174"
     },
     "Zyphra/Zonos": {
-        "stars": 7213,
-        "timestamp": "2026-06-06T08:50:36.244116"
+        "stars": 7216,
+        "timestamp": "2026-06-09T19:15:00.999749"
     },
     "swyxio/ai-notes": {
-        "stars": 6223,
-        "timestamp": "2026-06-06T08:50:38.334906"
+        "stars": 6225,
+        "timestamp": "2026-06-09T19:15:03.398821"
     },
     "IntelligenzaArtificiale/Free-Auto-GPT": {
-        "stars": 2535,
-        "timestamp": "2026-06-06T08:50:42.931115"
+        "stars": 2534,
+        "timestamp": "2026-06-09T19:15:10.357456"
     },
     "rstudio/tensorflow": {
         "stars": 1340,
-        "timestamp": "2026-06-06T08:50:44.964603"
+        "timestamp": "2026-06-09T19:15:12.673200"
     },
     "EgoAlpha/prompt-in-context-learning": {
-        "stars": 2239,
-        "timestamp": "2026-06-06T08:50:43.612175"
+        "stars": 2240,
+        "timestamp": "2026-06-09T19:15:11.102467"
     },
     "stepfun-ai/Step-Video-T2V": {
-        "stars": 3184,
-        "timestamp": "2026-06-06T08:50:42.257374"
+        "stars": 3185,
+        "timestamp": "2026-06-09T19:15:08.906284"
     },
     "bytedance/LatentSync": {
-        "stars": 5738,
-        "timestamp": "2026-06-06T08:50:38.986118"
+        "stars": 5752,
+        "timestamp": "2026-06-09T19:15:04.109518"
     },
     "Pythagora-io/pythagora": {
         "stars": 1821,
-        "timestamp": "2026-06-06T08:50:44.271141"
+        "timestamp": "2026-06-09T19:15:11.858575"
     },
     "bytedance/UI-TARS": {
-        "stars": 10854,
-        "timestamp": "2026-06-06T08:50:27.069377"
+        "stars": 10894,
+        "timestamp": "2026-06-09T19:14:50.249446"
     },
     "bytedance/UI-TARS-desktop": {
-        "stars": 36125,
-        "timestamp": "2026-06-06T08:49:47.833598"
+        "stars": 36258,
+        "timestamp": "2026-06-09T19:14:03.934218"
     },
     "badlogic/pi-mono": {
-        "stars": 60170,
-        "timestamp": "2026-06-06T08:49:27.631469"
+        "stars": 61160,
+        "timestamp": "2026-06-09T19:13:38.105706"
     },
     "asgeirtj/system_prompts_leaks": {
-        "stars": 41300,
-        "timestamp": "2026-06-06T08:49:42.109282"
+        "stars": 41460,
+        "timestamp": "2026-06-09T19:13:57.413269"
     },
     "NevaMind-AI/memU": {
-        "stars": 13783,
-        "timestamp": "2026-06-06T08:50:22.937299"
+        "stars": 13814,
+        "timestamp": "2026-06-09T19:14:45.852076"
     },
     "MoonshotAI/kimi-cli": {
-        "stars": 8893,
-        "timestamp": "2026-06-06T08:50:31.271599"
+        "stars": 8934,
+        "timestamp": "2026-06-09T19:14:55.291494"
     },
     "GetStream/Vision-Agents": {
-        "stars": 7896,
-        "timestamp": "2026-06-06T08:50:33.357019"
+        "stars": 7908,
+        "timestamp": "2026-06-09T19:14:58.491475"
     },
     "ishandutta2007/Top-AI-repos": {
-        "stars": 327,
-        "timestamp": "2026-06-06T08:50:46.321562"
+        "stars": 337,
+        "timestamp": "2026-06-09T19:15:14.199201"
     },
     "ollama/ollama": {
-        "stars": 173289,
-        "timestamp": "2026-06-06T08:49:04.910562"
+        "stars": 173679,
+        "timestamp": "2026-06-09T19:13:12.372115"
     },
     "open-webui/open-webui": {
-        "stars": 140220,
-        "timestamp": "2026-06-06T08:49:08.396084"
+        "stars": 140793,
+        "timestamp": "2026-06-09T19:13:16.952767"
     },
     "langgenius/dify": {
-        "stars": 144072,
-        "timestamp": "2026-06-06T08:49:07.672207"
+        "stars": 144556,
+        "timestamp": "2026-06-09T19:13:16.226405"
     },
     "vllm-project/vllm": {
-        "stars": 82026,
-        "timestamp": "2026-06-06T08:49:16.330832"
+        "stars": 82329,
+        "timestamp": "2026-06-09T19:13:26.011372"
     },
     "crewAIInc/crewAI": {
-        "stars": 52907,
-        "timestamp": "2026-06-06T08:49:34.069904"
+        "stars": 53140,
+        "timestamp": "2026-06-09T19:13:47.332318"
     },
     "unslothai/unsloth": {
-        "stars": 65882,
-        "timestamp": "2026-06-06T08:49:23.778705"
+        "stars": 66111,
+        "timestamp": "2026-06-09T19:13:34.891501"
     },
     "OpenInterpreter/open-interpreter": {
-        "stars": 63822,
-        "timestamp": "2026-06-06T08:49:25.152582"
+        "stars": 63847,
+        "timestamp": "2026-06-09T19:13:36.499412"
     },
     "deepseek-ai/DeepSeek-V3": {
-        "stars": 103691,
-        "timestamp": "2026-06-06T08:49:12.549428"
+        "stars": 103722,
+        "timestamp": "2026-06-09T19:13:21.697667"
     },
     "infiniflow/ragflow": {
-        "stars": 82002,
-        "timestamp": "2026-06-06T08:49:17.017310"
+        "stars": 82298,
+        "timestamp": "2026-06-09T19:13:27.204939"
     },
     "n8n-io/n8n": {
-        "stars": 191279,
-        "timestamp": "2026-06-06T08:49:03.497666"
+        "stars": 191744,
+        "timestamp": "2026-06-09T19:13:10.775511"
     },
     "Stability-AI/StableLM": {
         "stars": 15702,
-        "timestamp": "2026-06-06T08:50:18.125858"
+        "timestamp": "2026-06-09T19:14:40.532023"
     },
     "paperclipai/paperclip": {
-        "stars": 69284,
-        "timestamp": "2026-06-06T08:49:21.759599"
+        "stars": 69731,
+        "timestamp": "2026-06-09T19:13:32.554204"
     },
     "Scottcjn/Rustchain": {
-        "stars": 402,
-        "timestamp": "2026-06-06T08:50:45.656225"
+        "stars": 411,
+        "timestamp": "2026-06-09T19:15:13.488627"
     },
     "flowiseai/Flowise": {
-        "stars": 53372,
-        "timestamp": "2026-06-06T08:49:33.421408"
+        "stars": 53433,
+        "timestamp": "2026-06-09T19:13:46.563528"
     },
     "janhq/jan": {
-        "stars": 42883,
-        "timestamp": "2026-06-06T08:49:40.745585"
+        "stars": 42953,
+        "timestamp": "2026-06-09T19:13:54.999224"
     },
     "black-forest-labs/flux": {
-        "stars": 25601,
-        "timestamp": "2026-06-06T08:50:00.688204"
+        "stars": 25608,
+        "timestamp": "2026-06-09T19:14:19.209294"
     },
     "vercel/ai": {
-        "stars": 24682,
-        "timestamp": "2026-06-06T08:50:01.426100"
+        "stars": 24751,
+        "timestamp": "2026-06-09T19:14:19.992648"
     },
     "langchain-ai/langchainjs": {
-        "stars": 17765,
-        "timestamp": "2026-06-06T08:50:13.511280"
+        "stars": 17780,
+        "timestamp": "2026-06-09T19:14:35.533276"
     },
     "openclaw/openclaw": {
-        "stars": 377133,
-        "timestamp": "2026-06-06T08:49:02.837370"
+        "stars": 377790,
+        "timestamp": "2026-06-09T19:13:09.954350"
     },
     "langflow-ai/langflow": {
-        "stars": 149272,
-        "timestamp": "2026-06-06T08:49:06.982076"
+        "stars": 149451,
+        "timestamp": "2026-06-09T19:13:15.417320"
     },
     "anthropics/claude-code": {
-        "stars": 130455,
-        "timestamp": "2026-06-06T08:49:09.752306"
+        "stars": 131258,
+        "timestamp": "2026-06-09T19:13:18.524792"
     },
     "openai/whisper": {
-        "stars": 101638,
-        "timestamp": "2026-06-06T08:49:13.248179"
+        "stars": 102284,
+        "timestamp": "2026-06-09T19:13:22.510309"
     },
     "ComposioHQ/awesome-claude-skills": {
-        "stars": 63389,
-        "timestamp": "2026-06-06T08:49:25.812033"
+        "stars": 63859,
+        "timestamp": "2026-06-09T19:13:37.280248"
     },
     "karpathy/nanochat": {
-        "stars": 54646,
-        "timestamp": "2026-06-06T08:49:32.093674"
+        "stars": 54795,
+        "timestamp": "2026-06-09T19:13:45.004120"
     },
     "microsoft/graphrag": {
-        "stars": 33485,
-        "timestamp": "2026-06-06T08:49:54.543673"
+        "stars": 33589,
+        "timestamp": "2026-06-09T19:14:11.915234"
     },
     "google-gemini/cookbook": {
-        "stars": 17364,
-        "timestamp": "2026-06-06T08:50:14.968124"
+        "stars": 17390,
+        "timestamp": "2026-06-09T19:14:37.130869"
     },
     "langchain-ai/langgraph": {
-        "stars": 34002,
-        "timestamp": "2026-06-06T08:49:51.632675"
+        "stars": 34265,
+        "timestamp": "2026-06-09T19:14:07.984418"
     },
     "AnswerDotAI/fasthtml": {
-        "stars": 6945,
-        "timestamp": "2026-06-06T08:50:37.672020"
+        "stars": 6946,
+        "timestamp": "2026-06-09T19:15:02.598960"
     },
     "EvoMap/evolver": {
-        "stars": 8093,
-        "timestamp": "2026-06-06T08:50:35.463416"
+        "stars": 8340,
+        "timestamp": "2026-06-09T19:14:57.583593"
     },
     "confident-ai/deepeval": {
-        "stars": 15940,
-        "timestamp": "2026-06-06T08:50:17.453401"
+        "stars": 16042,
+        "timestamp": "2026-06-09T19:14:39.786332"
     },
     "f/prompts.chat": {
-        "stars": 163347,
-        "timestamp": "2026-06-06T08:50:46.973576"
+        "stars": 163464,
+        "timestamp": "2026-06-09T19:13:13.854626"
     },
     "deepspeedai/deepspeed": {
-        "stars": 42476,
-        "timestamp": "2026-06-06T11:57:44.572414"
+        "stars": 42489,
+        "timestamp": "2026-06-09T19:13:56.602737"
     },
     "mozilla-ai/llamafile": {
-        "stars": 24669,
-        "timestamp": "2026-06-06T11:57:45.250922"
+        "stars": 24708,
+        "timestamp": "2026-06-09T19:14:20.783845"
     },
     "lyogavin/airllm": {
-        "stars": 19440,
-        "timestamp": "2026-06-06T11:57:45.927404"
+        "stars": 19704,
+        "timestamp": "2026-06-09T19:14:29.160262"
     },
     "ashishpatel26/500-AI-Agents-Projects": {
-        "stars": 31766,
-        "timestamp": "2026-06-06T11:57:46.547608"
+        "stars": 32107,
+        "timestamp": "2026-06-09T19:14:13.533197"
     },
     "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code": {
-        "stars": 34255,
-        "timestamp": "2026-06-06T15:23:14.749695"
+        "stars": 34349,
+        "timestamp": "2026-06-09T19:14:06.201313"
     },
     "ashishpatel26/Tools-to-Design-or-Visualize-Architecture-of-Neural-Network": {
-        "stars": 5360,
-        "timestamp": "2026-06-06T15:23:15.501617"
+        "stars": 5361,
+        "timestamp": "2026-06-09T19:15:05.801923"
     },
     "ashishpatel26/Andrew-NG-Notes": {
-        "stars": 3700,
-        "timestamp": "2026-06-06T15:23:16.178138"
+        "stars": 3706,
+        "timestamp": "2026-06-09T19:15:08.148152"
     },
     "ashishpatel26/LLM-Finetuning": {
         "stars": 2928,
-        "timestamp": "2026-06-06T15:23:16.837566"
+        "timestamp": "2026-06-09T19:15:09.686748"
+    },
+    "karpathy/minGPT": {
+        "stars": 24514,
+        "timestamp": "2026-06-09T19:14:21.607285"
+    },
+    "MigoXLab/dingo": {
+        "stars": 709,
+        "timestamp": "2026-06-09T19:15:14.924993"
     }
 }
