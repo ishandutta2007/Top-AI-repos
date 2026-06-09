@@ -11,6 +11,21 @@ load_dotenv()
 GITHUB_TOKEN = os.getenv("VITE_GITHUB_TOKEN")
 CACHE_FILE = "star_cache.json"
 CACHE_EXPIRATION_HOURS = 24
+PROTECTED_REPOS_FILE = "protected_repos.txt"
+
+def load_protected_repos():
+    """Load repos that should never be removed during star-count-based cleanup."""
+    if not os.path.exists(PROTECTED_REPOS_FILE):
+        return set()
+    protected = set()
+    with open(PROTECTED_REPOS_FILE, 'r') as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith('#'):
+                protected.add(line.lower())
+    return protected
+
+PROTECTED_REPOS = load_protected_repos()
 
 def load_cache():
     if os.path.exists(CACHE_FILE):
@@ -135,7 +150,10 @@ def sort_markdown_table(markdown_content):
         else:
             print(f"Could not extract repo slug from row: {row}")
 
-        parsed_repos.append({'original_row': row, 'stars': stars, 'repo_slug': repo_slug})
+        is_protected = repo_slug and repo_slug.lower() in PROTECTED_REPOS
+        if is_protected:
+            print(f"Protected repo (will not be removed by cleanup): {repo_slug}")
+        parsed_repos.append({'original_row': row, 'stars': stars, 'repo_slug': repo_slug, 'protected': is_protected})
 
     # Sort by stars in descending order
     parsed_repos.sort(key=lambda x: x['stars'], reverse=True)

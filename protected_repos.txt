@@ -1,0 +1,8 @@
+# Repos protected from star-count-based cleanup.
+# These are projects that are new or growing and should not be removed
+# solely because of low star count at the time of a cleanup pass.
+#
+# Format: one GitHub repo slug per line (owner/repo)
+# To add a repo here, open a PR with justification.
+
+Fmarzochi/EGC
