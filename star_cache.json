@@ -606,5 +606,13 @@
     "Fmarzochi/EGC": {
         "stars": 16,
         "timestamp": "2026-06-09T21:55:59.511163"
+    },
+    "soumith/ganhacks": {
+        "stars": 11621,
+        "timestamp": "2026-06-11T06:59:28.123036"
+    },
+    "soumith/convnet-benchmarks": {
+        "stars": 2690,
+        "timestamp": "2026-06-11T06:59:28.832281"
     }
 }
