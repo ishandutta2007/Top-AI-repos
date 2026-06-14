@@ -1,7 +1,7 @@
-temp_repo_clone
-*.bk
 *.bak
+*.bk
 *.env
-TBI
-invite.py
-successful_invites.txt
+.cache
+__pycache__/*
+contributors.txt
+temp_repo_clone
