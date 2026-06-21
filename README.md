@@ -636,6 +636,29 @@ Made with [contrib.rocks](https://contrib.rocks).
 
 [Scroll to top](#top-ai-repos)
 
+---
+
+## 🤖 AI IDEs & Agentic Code Generation
+
+A curated subset of the 154 repos above focused on AI-powered coding environments, autonomous agent frameworks, and agentic AI toolkits — as requested in issue #5.
+
+| # | Repo | Language | Description |
+|---|------|----------|-------------|
+| 3 | [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) | Python | Make GPT-4 fully autonomous |
+| 4 | [opencode](https://github.com/sst/opencode) | TypeScript | Open-source AI coding agent for the terminal |
+| 13 | [claude-code](https://github.com/anthropics/claude-code) | Python | Agentic coding tool built for the terminal by Anthropic |
+| 34 | [open-interpreter](https://github.com/OpenInterpreter/open-interpreter) | Python | Natural language interface for your computer |
+| 38 | [autogen](https://github.com/microsoft/autogen) | Python / C# | Framework for building multi-agent agentic AI systems |
+| 44 | [crewAI](https://github.com/crewAIInc/crewAI) | Python | Framework for orchestrating role-playing autonomous AI agents |
+| 50 | [aider](https://github.com/paul-gauthier/aider) | Python | AI pair programming in your terminal |
+| 67 | [langgraph](https://github.com/langchain-ai/langgraph) | Python / TS | Library for stateful, multi-actor LLM application workflows |
+| 71 | [continue](https://github.com/continuedev/continue) | TypeScript | Open-source AI code assistant for VS Code & JetBrains |
+| 73 | [tabby](https://github.com/TabbyML/tabby) | Rust | Self-hosted AI coding assistant |
+| 84 | [ai](https://github.com/vercel/ai) | TypeScript | Vercel AI SDK — build AI-powered apps and agents |
+| 102 | [langchainjs](https://github.com/langchain-ai/langchainjs) | TypeScript | LangChain for JavaScript — the agent engineering platform |
+
+> **Last updated:** May/June 2026 · Total repos tracked: **154**
+
 ### ✨ Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=ishandutta2007/Top-AI-repos&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Top-AI-repos&type=date&legend=top-left)
