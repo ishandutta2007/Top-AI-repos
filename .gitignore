@@ -5,3 +5,12 @@
 __pycache__/*
 contributors.txt
 temp_repo_clone
+
+# Lock files — prevent re-bloating history (fixes #26)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Large vendored directories — never commit these
+n8n/
+node_modules/
