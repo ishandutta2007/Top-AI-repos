@@ -4,8 +4,9 @@
 
 import re
 
+
 def fix_serials(file_path):
-    with open(file_path, 'r', encoding='utf-8') as f:
+    with open(file_path, "r", encoding="utf-8") as f:
         lines = f.readlines()
 
     new_lines = []
@@ -14,22 +15,22 @@ def fix_serials(file_path):
 
     for line in lines:
         # Identify the separator line to start re-numbering from the next line
-        if '|---|---|---|---|---|---|---|' in line:
+        if "|---|---|---|---|---|---|---|" in line:
             new_lines.append(line)
             in_table_body = True
             continue
-        
+
         if in_table_body:
-            if line.strip().startswith('|'):
+            if line.strip().startswith("|"):
                 # Data row: Replace the content of the first column with the current serial number
-                match = re.match(r'^\|([^|]+)\|', line)
+                match = re.match(r"^\|([^|]+)\|", line)
                 if match:
-                    new_line = '|' + str(serial_num) + '|' + line[match.end(1)+1:]
+                    new_line = "|" + str(serial_num) + "|" + line[match.end(1) + 1 :]
                     new_lines.append(new_line)
                     serial_num += 1
                 else:
                     new_lines.append(line)
-            elif line.strip() == '':
+            elif line.strip() == "":
                 # Keep empty lines within the table body
                 new_lines.append(line)
             else:
@@ -39,9 +40,10 @@ def fix_serials(file_path):
         else:
             new_lines.append(line)
 
-    with open(file_path, 'w', encoding='utf-8', newline='') as f:
+    with open(file_path, "w", encoding="utf-8", newline="") as f:
         f.writelines(new_lines)
 
+
 if __name__ == "__main__":
-    fix_serials('README.md')
+    fix_serials("README.md")
     print("Serial numbers fixed in README.md")
