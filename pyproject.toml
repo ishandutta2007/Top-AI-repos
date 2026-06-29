@@ -1,0 +1,10 @@
+[project]
+name = "top-ai-repos"
+version = "0.1.0"
+description = "🎖️🏆🏅 100 most popular open source AI projects 🌟 Star if you like it! 🌟"
+readme = "README.md"
+requires-python = ">=3.11.4"
+dependencies = [
+    "dotenv>=0.9.9",
+    "requests>=2.34.2",
+]

@@ -187,7 +187,7 @@ def sort_markdown_table(markdown_content):
 
 
 # Main execution
-file_path = r"C:\Users\ishan\Documents\Projects\Top-AI-repos\README.md"
+file_path = r"./README.md"
 
 with open(file_path, "r", encoding="utf-8") as f:
     content = f.read()
