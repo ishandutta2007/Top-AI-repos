@@ -1,9 +1,11 @@
+<p align="center">
+  <img src="./assets/banner.svg" alt="Top AI Repos Banner" width="100%" />
+</p>
+
 # 🚀 Top-AI-Repos: Discover the Best Open-Source AI/ML Projects on GitHub (Generative AI, LLMs, Deep Learning, & More) ⭐️
 
 <p align="center">
-  <a href="https://discord.gg/jc4xtF58Ve">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
-  </a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Top-AI-repos/actions/workflows/python-package.yml">
     <img src="https://github.com/ishandutta2007/Top-AI-repos/actions/workflows/python-package.yml/badge.svg" alt="Build Status" />
   </a>
@@ -23,11 +25,9 @@
     <img src="https://img.shields.io/github/last-commit/ishandutta2007/Top-AI-repos?style=for-the-badge" alt="Last Commit" />
   </a>
   <img src="https://img.shields.io/github/repo-size/ishandutta2007/Top-AI-repos?style=for-the-badge" alt="Repo Size" />
-  <br />
-  <br />
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
-
 </p>
+
 
 Explore a meticulously curated list of the top 154 GitHub repositories in Artificial Intelligence (AI) and Machine Learning (ML). This comprehensive guide highlights cutting-edge open-source projects, essential libraries, and valuable resources across various domains, including Generative AI, Large Language Models (LLMs), deep learning, natural language processing (NLP), computer vision, and AI research. Whether you're searching on Google, Bing, or exploring AI platforms like Gemini, ChatGPT, Perplexity AI, or DeepSeek, this repository aims to be your definitive source for leading AI innovations.
 

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0c1b"/>
+      <stop offset="50%" stop-color="#15102a"/>
+      <stop offset="100%" stop-color="#06020f"/>
+    </linearGradient>
+
+    <!-- Metallic/Glow Gradients -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff007f"/>
+      <stop offset="50%" stop-color="#7f00ff"/>
+      <stop offset="100%" stop-color="#00f0ff"/>
+    </linearGradient>
+
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7f00ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#251b4f" stroke-width="1" opacity="0.3"/>
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bgGrad)"/>
+  <rect width="1200" height="400" fill="url(#grid)"/>
+
+  <!-- Glowing background elements -->
+  <circle cx="200" cy="200" r="150" fill="url(#glowGrad)" filter="url(#glow)" opacity="0.4"/>
+  <circle cx="1000" cy="200" r="180" fill="url(#glowGrad)" filter="url(#glow)" opacity="0.3"/>
+
+  <!-- Decorative geometric elements (neural net vibes) -->
+  <g stroke="#7f00ff" stroke-width="1.5" opacity="0.25">
+    <line x1="150" y1="80" x2="300" y2="150"/>
+    <line x1="300" y1="150" x2="250" y2="300"/>
+    <line x1="250" y1="300" x2="150" y2="80"/>
+    <line x1="300" y1="150" x2="450" y2="100"/>
+    <line x1="450" y1="100" x2="550" y2="250"/>
+    <line x1="550" y1="250" x2="300" y2="150"/>
+
+    <circle cx="150" cy="80" r="6" fill="#ff007f"/>
+    <circle cx="300" cy="150" r="8" fill="#7f00ff"/>
+    <circle cx="250" cy="300" r="6" fill="#00f0ff"/>
+    <circle cx="450" cy="100" r="5" fill="#7f00ff"/>
+    <circle cx="550" cy="250" r="7" fill="#ff007f"/>
+  </g>
+
+  <g stroke="#00f0ff" stroke-width="1.5" opacity="0.25" transform="translate(500, 20)">
+    <line x1="450" y1="280" x2="550" y2="150"/>
+    <line x1="550" y1="150" x2="380" y2="80"/>
+    <line x1="380" y1="80" x2="450" y2="280"/>
+    
+    <circle cx="450" cy="280" r="6" fill="#00f0ff"/>
+    <circle cx="550" cy="150" r="5" fill="#ff007f"/>
+    <circle cx="380" cy="80" r="7" fill="#7f00ff"/>
+  </g>
+
+  <!-- Title Text -->
+  <g transform="translate(600, 180)" text-anchor="middle">
+    <text font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="900" font-size="70" fill="url(#accentGrad)" letter-spacing="4">
+      TOP AI REPOS
+    </text>
+  </g>
+
+  <!-- Subtitle Text -->
+  <g transform="translate(600, 240)" text-anchor="middle">
+    <text font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="600" font-size="22" fill="#a5a1b8" letter-spacing="1.5">
+      Discover the Best Open-Source AI/ML Projects on GitHub
+    </text>
+  </g>
+
+  <!-- Categories / Tags -->
+  <g transform="translate(600, 290)" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="500" font-size="14" fill="#6d678d" letter-spacing="1">
+    <text>
+      Generative AI • LLMs • Deep Learning • NLP • Computer Vision • Agents
+    </text>
+  </g>
+</svg>
