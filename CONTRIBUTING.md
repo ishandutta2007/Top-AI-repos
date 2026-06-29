@@ -6,12 +6,12 @@ Thank you for your interest in contributing to Top-AI-repos! This guide will hel
 
 ## 🛠️ Repository Scripts & Roles
 
-This repository uses several Python scripts and one PowerShell script to automate data consistency, table sorting, serial updates, and contributor stats in [README.md](file:///C:/Users/ishan/Documents/Projects/Top-AI-repos/README.md).
+This repository uses several Python scripts and one PowerShell script to automate data consistency, table sorting, serial updates, and contributor stats in [README.md](/README.md).
 
 Here is a breakdown of each script's role and how to run it:
 
 ### 1. Table Sorting
-* **File:** [sort_table.py](file:///C:/Users/ishan/Documents/Projects/Top-AI-repos/sort_table.py)
+* **File:** [sort_table.py](/sort_table.py)
 * **Role:** Fetches the latest star counts for each GitHub repository in the list using the GitHub API, sorts the table rows in descending order based on star counts, updates the serial numbers, and caches results locally in `star_cache.json` (valid for 24 hours).
 * **Environment variables:** Needs `VITE_GITHUB_TOKEN` defined in a `.env` file (copied from `.env.example`) to avoid GitHub API rate-limiting.
 * **How to run:**
@@ -20,7 +20,7 @@ Here is a breakdown of each script's role and how to run it:
   ```
 
 ### 2. Consistency Checking
-* **Files:** [check_table.py](file:///C:/Users/ishan/Documents/Projects/Top-AI-repos/check_table.py) and [check_repo_link_vs_user_link_inconsistencies.py](file:///C:/Users/ishan/Documents/Projects/Top-AI-repos/check_repo_link_vs_user_link_inconsistencies.py)
+* **Files:** [check_table.py](/check_table.py) and [check_repo_link_vs_user_link_inconsistencies.py](/check_repo_link_vs_user_link_inconsistencies.py)
 * **Role:** Parses the README table and verifies that the `Repo_Stars` and `User_Stars` badge URLs/hrefs match the owner and repository names specified in the main `Repo` column.
 * **How to run:**
   ```powershell
@@ -30,7 +30,7 @@ Here is a breakdown of each script's role and how to run it:
   ```
 
 ### 3. Fixing Serial Numbers
-* **Files:** [fix_serials.py](file:///C:/Users/ishan/Documents/Projects/Top-AI-repos/fix_serials.py) & [fix_serials.ps1](file:///C:/Users/ishan/Documents/Projects/Top-AI-repos/fix_serials.ps1)
+* **Files:** [fix_serials.py](/fix_serials.py) & [fix_serials.ps1](/fix_serials.ps1)
 * **Role:** Ensures the sequential row IDs (first column) in the markdown table start from `1` and increase incrementally without gaps.
 * **How to run:**
   ```powershell
@@ -40,8 +40,8 @@ Here is a breakdown of each script's role and how to run it:
   ```
 
 ### 4. Updating Contributors
-* **File:** [update_contributors.py](file:///C:/Users/ishan/Documents/Projects/Top-AI-repos/update_contributors.py)
-* **Role:** Fetches project contributors via the GitHub API and updates the grid of contributor avatar images under the `## 👥 Contributors` section in [README.md](file:///C:/Users/ishan/Documents/Projects/Top-AI-repos/README.md).
+* **File:** [update_contributors.py](/update_contributors.py)
+* **Role:** Fetches project contributors via the GitHub API and updates the grid of contributor avatar images under the `## 👥 Contributors` section in [README.md](/README.md).
 * **How to run:**
   ```powershell
   python update_contributors.py
@@ -52,12 +52,12 @@ Here is a breakdown of each script's role and how to run it:
 ## 📋 General Contribution Guidelines
 
 1. **Adding/Editing Repositories:**
-   * Open [README.md](file:///C:/Users/ishan/Documents/Projects/Top-AI-repos/README.md) and append or modify the target row inside the Markdown table.
+   * Open [README.md](/README.md) and append or modify the target row inside the Markdown table.
    * Make sure to follow the existing row structure:
      `| ID | Repo | Repo_Stars | User_Stars | Description | Core Technology |`
-   * Run [check_table.py](file:///C:/Users/ishan/Documents/Projects/Top-AI-repos/check_table.py) to verify links and badges.
-   * Run [sort_table.py](file:///C:/Users/ishan/Documents/Projects/Top-AI-repos/sort_table.py) to sort the table by star counts.
-   * Run [fix_serials.py](file:///C:/Users/ishan/Documents/Projects/Top-AI-repos/fix_serials.py) to clean up the numbering.
+   * Run [check_table.py](/check_table.py) to verify links and badges.
+   * Run [sort_table.py](/sort_table.py) to sort the table by star counts.
+   * Run [fix_serials.py](/fix_serials.py) to clean up the numbering.
 
 2. **Commit Guidelines:**
    * Keep commits focused and descriptive (e.g., `feat: add new AI repo X`, `docs: fix typo in README`).

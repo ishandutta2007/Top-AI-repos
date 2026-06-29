@@ -622,5 +622,21 @@
     "h3pdesign/Neon-Vision-Editor": {
         "stars": 285,
         "timestamp": "2026-06-29T05:27:40.040568"
+    },
+    "OpenHands/OpenHands": {
+        "stars": 78639,
+        "timestamp": "2026-06-29T03:36:08.890511"
+    },
+    "github/github-mcp-server": {
+        "stars": 31048,
+        "timestamp": "2026-06-29T03:36:09.560144"
+    },
+    "modelcontextprotocol/servers": {
+        "stars": 87820,
+        "timestamp": "2026-06-29T03:36:10.074153"
+    },
+    "ragflow/ragflow": {
+        "stars": 23,
+        "timestamp": "2026-06-29T03:36:10.687905"
     }
 }
