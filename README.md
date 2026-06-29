@@ -1,3 +1,6 @@
+
+# STOP SPAMMING PLEASE 🤬🤬🤬
+
 <p align="center">
   <img src="./assets/banner.svg" alt="Top AI Repos Banner" width="100%" />
 </p>
