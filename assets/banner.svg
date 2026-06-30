@@ -58,28 +58,28 @@
         }
       }
       .glow-circle-1 {
-        animation: pulseGlow 8s ease-in-out infinite;
+        animation: pulseGlow 4s ease-in-out infinite;
         transform-origin: 200px 200px;
       }
       .glow-circle-2 {
-        animation: pulseGlow 12s ease-in-out infinite alternate;
+        animation: pulseGlow 6s ease-in-out infinite alternate;
         transform-origin: 1000px 200px;
       }
       .net-group-1 {
-        animation: floatGroup1 10s ease-in-out infinite;
+        animation: floatGroup1 5s ease-in-out infinite;
       }
       .net-group-2 {
-        animation: floatGroup2 12s ease-in-out infinite;
+        animation: floatGroup2 6s ease-in-out infinite;
       }
       .pulse-n {
-        animation: pulseNode 3s ease-in-out infinite;
+        animation: pulseNode 1s ease-in-out infinite;
       }
       .pulse-l {
-        animation: pulseNodeLarge 4s ease-in-out infinite;
+        animation: pulseNodeLarge 2s ease-in-out infinite;
       }
       .conn-line {
         stroke-dasharray: 8 4;
-        animation: dash 4s linear infinite;
+        animation: dash 2s linear infinite;
       }
     </style>
   </defs>
