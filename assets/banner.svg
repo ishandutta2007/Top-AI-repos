@@ -29,6 +29,59 @@
       <feGaussianBlur stdDeviation="15" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
+
+    <!-- CSS Animations -->
+    <style>
+      @keyframes pulseGlow {
+        0%, 100% { transform: scale(1); opacity: 0.35; }
+        50% { transform: scale(1.15); opacity: 0.5; }
+      }
+      @keyframes floatGroup1 {
+        0%, 100% { transform: translate(0, 0); }
+        50% { transform: translate(5px, -10px); }
+      }
+      @keyframes floatGroup2 {
+        0%, 100% { transform: translate(500px, 20px); }
+        50% { transform: translate(495px, 30px); }
+      }
+      @keyframes pulseNode {
+        0%, 100% { r: 5px; opacity: 0.8; }
+        50% { r: 8px; opacity: 1; }
+      }
+      @keyframes pulseNodeLarge {
+        0%, 100% { r: 8px; opacity: 0.8; }
+        50% { r: 12px; opacity: 1; }
+      }
+      @keyframes dash {
+        to {
+          stroke-dashoffset: -40;
+        }
+      }
+      .glow-circle-1 {
+        animation: pulseGlow 8s ease-in-out infinite;
+        transform-origin: 200px 200px;
+      }
+      .glow-circle-2 {
+        animation: pulseGlow 12s ease-in-out infinite alternate;
+        transform-origin: 1000px 200px;
+      }
+      .net-group-1 {
+        animation: floatGroup1 10s ease-in-out infinite;
+      }
+      .net-group-2 {
+        animation: floatGroup2 12s ease-in-out infinite;
+      }
+      .pulse-n {
+        animation: pulseNode 3s ease-in-out infinite;
+      }
+      .pulse-l {
+        animation: pulseNodeLarge 4s ease-in-out infinite;
+      }
+      .conn-line {
+        stroke-dasharray: 8 4;
+        animation: dash 4s linear infinite;
+      }
+    </style>
   </defs>
 
   <!-- Background -->
@@ -36,33 +89,33 @@
   <rect width="1200" height="400" fill="url(#grid)"/>
 
   <!-- Glowing background elements -->
-  <circle cx="200" cy="200" r="150" fill="url(#glowGrad)" filter="url(#glow)" opacity="0.4"/>
-  <circle cx="1000" cy="200" r="180" fill="url(#glowGrad)" filter="url(#glow)" opacity="0.3"/>
+  <circle class="glow-circle-1" cx="200" cy="200" r="150" fill="url(#glowGrad)" filter="url(#glow)"/>
+  <circle class="glow-circle-2" cx="1000" cy="200" r="180" fill="url(#glowGrad)" filter="url(#glow)"/>
 
   <!-- Decorative geometric elements (neural net vibes) -->
-  <g stroke="#7f00ff" stroke-width="1.5" opacity="0.25">
-    <line x1="150" y1="80" x2="300" y2="150"/>
-    <line x1="300" y1="150" x2="250" y2="300"/>
-    <line x1="250" y1="300" x2="150" y2="80"/>
-    <line x1="300" y1="150" x2="450" y2="100"/>
-    <line x1="450" y1="100" x2="550" y2="250"/>
-    <line x1="550" y1="250" x2="300" y2="150"/>
+  <g class="net-group-1" stroke="#7f00ff" stroke-width="1.5" opacity="0.25">
+    <line class="conn-line" x1="150" y1="80" x2="300" y2="150"/>
+    <line class="conn-line" x1="300" y1="150" x2="250" y2="300"/>
+    <line class="conn-line" x1="250" y1="300" x2="150" y2="80"/>
+    <line class="conn-line" x1="300" y1="150" x2="450" y2="100"/>
+    <line class="conn-line" x1="450" y1="100" x2="550" y2="250"/>
+    <line class="conn-line" x1="550" y1="250" x2="300" y2="150"/>
 
-    <circle cx="150" cy="80" r="6" fill="#ff007f"/>
-    <circle cx="300" cy="150" r="8" fill="#7f00ff"/>
-    <circle cx="250" cy="300" r="6" fill="#00f0ff"/>
-    <circle cx="450" cy="100" r="5" fill="#7f00ff"/>
-    <circle cx="550" cy="250" r="7" fill="#ff007f"/>
+    <circle class="pulse-n" cx="150" cy="80" r="6" fill="#ff007f"/>
+    <circle class="pulse-l" cx="300" cy="150" r="8" fill="#7f00ff"/>
+    <circle class="pulse-n" cx="250" cy="300" r="6" fill="#00f0ff"/>
+    <circle class="pulse-n" cx="450" cy="100" r="5" fill="#7f00ff"/>
+    <circle class="pulse-n" cx="550" cy="250" r="7" fill="#ff007f"/>
   </g>
 
-  <g stroke="#00f0ff" stroke-width="1.5" opacity="0.25" transform="translate(500, 20)">
-    <line x1="450" y1="280" x2="550" y2="150"/>
-    <line x1="550" y1="150" x2="380" y2="80"/>
-    <line x1="380" y1="80" x2="450" y2="280"/>
+  <g class="net-group-2" stroke="#00f0ff" stroke-width="1.5" opacity="0.25">
+    <line class="conn-line" x1="450" y1="280" x2="550" y2="150"/>
+    <line class="conn-line" x1="550" y1="150" x2="380" y2="80"/>
+    <line class="conn-line" x1="380" y1="80" x2="450" y2="280"/>
     
-    <circle cx="450" cy="280" r="6" fill="#00f0ff"/>
-    <circle cx="550" cy="150" r="5" fill="#ff007f"/>
-    <circle cx="380" cy="80" r="7" fill="#7f00ff"/>
+    <circle class="pulse-n" cx="450" cy="280" r="6" fill="#00f0ff"/>
+    <circle class="pulse-n" cx="550" cy="150" r="5" fill="#ff007f"/>
+    <circle class="pulse-n" cx="380" cy="80" r="7" fill="#7f00ff"/>
   </g>
 
   <!-- Title Text -->
