@@ -23,13 +23,15 @@ TABLE_ROW = re.compile(r"^\|\s*(\d+)\s*\|")
 
 
 def test_readme_has_curated_list_header() -> None:
-    """First line of the README must be the project H1 — guards against
-    accidental truncation or a stray prepended line."""
-    first_line = README.read_text(encoding="utf-8").splitlines()[0]
-    assert first_line.startswith("# "), (
-        f"README first line is not an H1: {first_line!r}"
+    """The README's H1 project header must appear near the top (after the
+    centered banner image) — guards against accidental truncation or a
+    stray prepended line."""
+    lines = README.read_text(encoding="utf-8").splitlines()
+    header_lines = [line for line in lines[:10] if line.startswith("# ")]
+    assert header_lines, f"No H1 header found in first 10 lines: {lines[:10]!r}"
+    assert "Top-AI" in header_lines[0], (
+        f"README H1 lost its project name: {header_lines[0]!r}"
     )
-    assert "Top-AI" in first_line, f"README H1 lost its project name: {first_line!r}"
 
 
 def test_table_row_indices_are_unique_and_start_at_one() -> None:
@@ -161,7 +163,7 @@ def test_readme_required_sections_present() -> None:
     text = README.read_text(encoding="utf-8")
     required_sections = {
         "H1 Header": "# 🚀",
-        "Table Header": "| <ins>#</ins>",
+        "Table Header": "|<ins>#</ins>",
         "Contributors Section": "## 👥 Contributors",
         "Discord Link": "discord.gg/jc4xtF58Ve",
     }
