@@ -256,15 +256,20 @@ def test_readme_file_exists_and_readable() -> None:
 
 @pytest.mark.parametrize("pattern", REQUIRED_GITIGNORE_PATTERNS)
 def test_gitignore_covers_bloat_patterns(pattern: str) -> None:
-    """Each known history-bloat pattern must be present in .gitignore.
+    """Each known history-bloat pattern must be present in .gitignore as an
+    active (non-commented) line.
 
     This guards against accidental removal of entries that were added to fix
     the 300 MB history bloat caused by n8n assets and lock-file churn.
     """
     assert GITIGNORE.exists(), ".gitignore file not found"
-    text = GITIGNORE.read_text(encoding="utf-8")
-    assert pattern in text, (
-        f"'.gitignore' is missing the pattern {pattern!r} — "
+    active_lines = [
+        line.strip()
+        for line in GITIGNORE.read_text(encoding="utf-8").splitlines()
+        if line.strip() and not line.strip().startswith("#")
+    ]
+    assert pattern in active_lines, (
+        f"'.gitignore' is missing the active pattern {pattern!r} — "
         "removing it allows history bloat to recur (see issue #26)"
     )
 
