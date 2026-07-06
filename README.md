@@ -642,3 +642,6 @@ A huge thank you to everyone who has contributed to this project!
 ### ✨ Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=ishandutta2007/Top-AI-repos&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Top-AI-repos&type=date&legend=top-left)
+[NanoGPT](https://github.com/karpathy/nanoGPT)|...| Python | The simplest, fastest repository for training/finetuning medium-sized GPTs. | 2022 |
+|42| [Llama](https://github.com/facebookresearch/llama)|...| Python | Inference code for LLaMA models. | 2023 |
+|47| [Segment Anything](https://github.com/facebookresearch/segment-anything)|...| Python | Promptable segmentation model for generating high-quality object masks from an image. | 2023 |
