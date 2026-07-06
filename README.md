@@ -199,6 +199,18 @@ We have tried to sort the list in decreasing order of stars. If you like to add 
 |161| [Neon Vision Editor](https://github.com/h3pdesign/Neon-Vision-Editor) | <a href="https://github.com/h3pdesign/Neon-Vision-Editor"><img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.herokuapp.com/github/stars/h3pdesign/Neon-Vision-Editor?logo=star&color=55960c&labelColor=488207&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github.com/repos/h3pdesign/Neon-Vision-Editor"/></a> | <a href="https://github.com/h3pdesign?tab=repositories&sort=stargazers"> <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&color=55960c&labelColor=488207&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/h3pdesign"/></a> | Swift | Native AI-assisted code and text editor for macOS, iPhone, and iPad with syntax highlighting, fast file access, and focused editing. | 2025 |
 |162| [ragflow](https://github.com/ragflow/ragflow) | <a href="https://github.com/ragflow/ragflow"><img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.herokuapp.com/github/stars/ragflow/ragflow?logo=star&color=55960c&labelColor=488207&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github.com/repos/ragflow/ragflow"/></a> | <a href="https://github.com/ragflow?tab=repositories&sort=stargazers"> <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&color=55960c&labelColor=488207&label=Stars&style=for-the-badge&query=%24.stars&url=https://github-star-counter.workers.dev/user/ragflow"/></a> | Python | RAGFlow is an open-source RAG engine based on deep document understanding. | 2024 |
 
+Since you conveniently deleted the issue where I mentioned you were inflating your contributors and commit counts by having the n8n's project Git history merged into your own, here is a PR that I think you cannot delete.
+
+Commit message:
+
+> This repo includes the Git history of the n8n project, and then generates a list of n8n's contributors as if they contributed to this repo.
+
+https://github.com/ishandutta2007/Top-AI-repos/tree/52e15bdcaf3a8b24282a2e25bd4427a060e961c5
+
+This wasn't just vendored, as https://github.com/ishandutta2007/Top-AI-repos/pull/36 seems to imply: the full Git history of n8n is part of this project's Git history.
+
+I'm happy to believe this is all just an honest mistake if you fix your Git history by removing all of n8n's commits and force-push the update.
+
 ### 🤔 Questions? Problems? Suggestions?
 
 #### Get help - [Discord 💬](https://discord.gg/jc4xtF58Ve)
