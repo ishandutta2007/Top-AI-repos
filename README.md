@@ -642,3 +642,7 @@ A huge thank you to everyone who has contributed to this project!
 ### ✨ Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=ishandutta2007/Top-AI-repos&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Top-AI-repos&type=date&legend=top-left)
+
+<p align="center">
+  <img src="./assets/ishandutta2007_Top-AI-repos_growth.svg" alt="ishandutta2007/Top-AI-repos" width="100%" />
+</p>
