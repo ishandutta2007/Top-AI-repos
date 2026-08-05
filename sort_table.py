@@ -186,16 +186,20 @@ def sort_markdown_table(markdown_content):
     return new_markdown_content
 
 
+def sort_table(file_path=r"./README.md"):
+    """Main entry point: read, sort, and write back the README table."""
+    with open(file_path, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    updated_content = sort_markdown_table(content)
+
+    with open(file_path, "w", encoding="utf-8") as f:
+        f.write(updated_content)
+
+    save_cache(star_cache)
+    print("Table sorting complete. Check README.md")
+
+
 # Main execution
-file_path = r"./README.md"
-
-with open(file_path, "r", encoding="utf-8") as f:
-    content = f.read()
-
-updated_content = sort_markdown_table(content)
-
-with open(file_path, "w", encoding="utf-8") as f:
-    f.write(updated_content)
-
-save_cache(star_cache)
-print("Table sorting complete. Check README.md")
+if __name__ == "__main__":
+    sort_table()
