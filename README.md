@@ -33,6 +33,25 @@ Explore a meticulously curated list of the top 193 GitHub repositories in Artifi
 
 We have tried to sort the list in decreasing order of stars. If you like to add or update projects, feel free to open an issue or submit a pull request. Contributions are very welcome! 🚀
 
+## 🗂️ Explore by Category
+
+To make exploring easier, the 193 repositories have been organized into specialized categories with dedicated sorted tables, subcategories, and deep links:
+
+| Category | Description | Repos | Dedicated Guide |
+|---|---|:---:|:---:|
+| 🤖 **Agents & Automation** | Autonomous agents, multi-agent frameworks, coding agents, computer-use and browser automation | 45 | [Explore Agents &rarr;](categories/agents-and-automation.md) |
+| ⚡ **Workflow & App Frameworks** | Visual builders (n8n, Langflow, Dify), agent orchestration, prompt programming (DSPy), and structured outputs | 15 | [Explore Workflows &rarr;](categories/workflow-and-app-frameworks.md) |
+| 🚀 **Inference, Serving & Models** | Local runtimes (Ollama, llama.cpp), high-throughput serving (vLLM, SGLang), and foundation weights (DeepSeek, Qwen) | 21 | [Explore Inference &rarr;](categories/inference-and-serving.md) |
+| 📚 **RAG, Data & Storage** | RAG engines, vector databases (Milvus, Qdrant, Weaviate), memory layers (mem0, MemGPT), and doc parsing | 21 | [Explore RAG & Data &rarr;](categories/rag-and-data.md) |
+| 💬 **Web UIs & Chat Interfaces** | Self-hosted Web UIs (Open WebUI, LibreChat), ChatGPT desktop clients, and multi-model interfaces | 12 | [Explore Web UIs &rarr;](categories/web-uis-and-chat.md) |
+| 🎨 **Vision, Audio & Multimodal** | Image generation (ComfyUI, SD WebUI, FLUX), segmentation (SAM), TTS/speech (Whisper, Coqui), and video models | 26 | [Explore Vision & Audio &rarr;](categories/vision-and-multimodal.md) |
+| 🧠 **Core ML, Training & Fine-Tuning** | Foundational ML frameworks (TensorFlow, PyTorch, JAX), fast fine-tuning (Unsloth, LLaMA-Factory, PEFT) | 32 | [Explore Core ML &rarr;](categories/core-ml-and-training.md) |
+| 🔬 **Research, Prompts & Evaluation** | LLM evaluation (DeepEval, ragas, Evals), prompt collections, educational from-scratch code, and research repos | 21 | [Explore Research &rarr;](categories/research-and-evaluation.md) |
+
+---
+
+## 🏆 Complete List of Top AI Repositories
+
 
 |<ins>#</ins>| <ins>Repo</ins>  | <ins>Repo_Stars_______<ins> | <ins>User_Stars________<ins> |  <ins>Language_</ins> |  <ins>Description______________________</ins> | <ins>Created_Year</ins> |
 |---|---|---|---|---|---|---|
