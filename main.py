@@ -15,8 +15,10 @@ def cmd_sort(args):
 def cmd_check(args):
     """Run consistency checks on the README table."""
     file_path = args.file
-    check_table_links(file_path)
+    mismatches = check_table_links(file_path)
     check_table_consistency(file_path)
+    if mismatches:
+        sys.exit(1)
 
 
 def cmd_fix_serials(args):

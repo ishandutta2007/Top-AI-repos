@@ -95,6 +95,8 @@ def check_table_consistency(file_path="README.md"):
     else:
         print(f"Finished: Found {mismatches} inconsistencies.")
 
+    return mismatches
+
 
 if __name__ == "__main__":
-    check_table_consistency()
+    sys.exit(1 if check_table_consistency() else 0)
